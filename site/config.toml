@@ -1,8 +1,8 @@
 baseurl = "/"
 languageCode = "en-us"
-title = "Strata"
+title = "Sion Williams"
 theme = "hugo-strata-theme"
-disqusShortname = "spf13"
+disqusShortname = "willis7"
 # Enable Google Analytics by inserting your tracking code
 googleAnalytics = ""
 # Define how many posts should appear on a site
@@ -31,17 +31,17 @@ paginate = 10
 		# Use Markdown to format the string. This works nearly all over the theme
 		bio = "**I'm Sion**, and I work as a DevOps engineer and automation specialist."
 		# The icons will be shown if you enter your username
-		twitter = "spf13"
-		github = "spf13"
-		gitlab = "spf13"
+		twitter = "darthsionno"
+		github = "willis7"
+		gitlab = "willis7"
 		dribbble = ""
 		facebook = ""
 		googleplus = ""
 		flickr = ""
-		linkedin = ""
+		linkedin = "sionwilliams"
 
 		copyright = [
-			"&copy; John Doe",
+			"&copy; Sion Williams",
 			"Design: [HTML5 UP](//html5up.net)",
 			"Demo Images: [Unsplash](//unsplash.com/)"
 		]
@@ -49,12 +49,12 @@ paginate = 10
 
 	[params.about]
 		hide  = false
-		title = "Ipsum lorem dolor aliquam ante commodo magna sed accumsan arcu neque."
-		content = "Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc nisi lorem vulputate lorem neque cubilia ac in adipiscing in curae lobortis tortor primis integer massa adipiscing id nisi accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque cubilia."
+		title = "Sion Williams"
+		content = "I'm a DevOps angelist, automation nut, and peopleware enthusiast."
 
 
 	[params.portfolio]
-		hide  = false
+		hide  = true
 		title = "Recent Work"
 
 		# The images and thumbnails are stored under static/images
@@ -102,14 +102,14 @@ paginate = 10
 	[params.contact]
 		hide  = false
 		title = "Get In Touch"
-		content = "Accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque lorem ipsum dolor."
+		content = "I'm always open to working with new clients. Drop me a message."
 
 		# This can be exact coordinates or a searchable address in google maps
 		gmaps_address = "39.7889055,-120.5443524"
 		address = [
-			"1234 Somewhere Rd.",
-			"Nashville, TN 00000",
-			"United States"
+			"6 Hellings Gardens",
+			"Broadclyst, Exeter",
+			"United Kingdom"
 		]
 		phone = "000-000-0000"
 
@@ -124,7 +124,7 @@ paginate = 10
 	    # - send a dummy email yourself to confirm your account
 	    # - click the confirm link in the email from www.formspree.io
 	    # - you're done. Happy mailing!
-		email = "hello@example.com"
+		email = "sion@nullbyteltd.com"
 
 		[params.contact.form]
 			# Set custom strings for the form if your native
@@ -145,3 +145,8 @@ paginate = 10
 	name = "Blog"
 	url  = "post/"
 	weight = 0
+
+[[menu.main]]
+  name = "Bookshelf"
+  url  = "bookshelf"
+  weight = 0
