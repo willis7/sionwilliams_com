@@ -4,7 +4,7 @@ title = "Sion Williams"
 theme = "hugo-strata-theme"
 disqusShortname = "willis7"
 # Enable Google Analytics by inserting your tracking code
-googleAnalytics = ""
+googleAnalytics = "UA-119190708-1"
 # Define how many posts should appear on a site
 paginate = 10
 
