@@ -4,7 +4,9 @@ date = "2018-10-18T20:46:13+01:00"
 banner = "images/banners/placeholder.png"
 +++
 
-* [Accelerate: The Science of Lean Software and DevOps: Building and Scaling High Performing Technology Organizations][acc1] by by Nicole Forsgren PhD, Jez Humble, Gene Kim 
+Full disclosure; the links below are to my Amazon Associates account, and so I would get a little financial kickback if you decided to purchase.
+
+* [Accelerate: The Science of Lean Software and DevOps: Building and Scaling High Performing Technology Organizations][acc1] by Nicole Forsgren PhD, Jez Humble, Gene Kim 
 * [Designing Delivery][dd1] by Jeff Sussna
 * [The Phoenix Project][pp1] by Gene Kim
 * [The Lean Startup: How Constant Innovation Creates Radically Successful Businesses][ls1] by Eric Ries
