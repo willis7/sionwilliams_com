@@ -17,7 +17,7 @@ ExecStart=
 ExecStart=/usr/bin/dockerd -H tcp://0.0.0.0:4243 -H unix:///var/run/docker.sock
 ```
 
-If you're using a configuration management tool you can make the file in the correct location, perform a `systemctl daemon-reload` followed by `systemctl restart docker` and the service should get the new updates. Use `systemctl show docker` to verify the changes.
+If you're using a configuration management tool you can create the file in the correct location, perform a `systemctl daemon-reload` followed by `systemctl restart docker` and the service should get the new updates. Use `systemctl show docker` to verify the changes.
 
 The example above also works for setting environment variables as seen in the snippet below:
 
