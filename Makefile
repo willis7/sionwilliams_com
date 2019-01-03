@@ -10,9 +10,15 @@ install:
 start:
 	@yarn start
 
+build:
+	@yarn run build
+
+preview:
+	@yarn run build-preview
+
 deadwood := \
 	node_modules/ \
 	dist/ \
 
 .SILENT: clean
-.PHONY: clean install start
+.PHONY: clean install start build preview

@@ -1,5 +1,6 @@
 baseurl = "/"
 languageCode = "en-us"
+languageLang = "en"
 title = "Sion Williams"
 theme = "hugo-strata-theme"
 disqusShortname = "willis7"
@@ -50,50 +51,7 @@ paginate = 10
 	[params.about]
 		hide  = false
 		title = "Sion Williams"
-		content = "I'm a DevOps angelist, automation nut, and peopleware enthusiast."
-
-
-	[params.portfolio]
-		hide  = true
-		title = "Recent Work"
-
-		# The images and thumbnails are stored under static/images
-		# Create and change subfolders as you like
-		[[params.portfolio.gallery]]
-			image = "fulls/01.jpg"
-			thumb = "thumbs/01.jpg"
-			title = "Lorem ipsum dolor."
-			description = "Lorem ipsum dolor sit amet."
-
-		[[params.portfolio.gallery]]
-			image = "fulls/02.jpg"
-			thumb = "thumbs/02.jpg"
-			title = "Lorem ipsum dolor."
-			description = "Lorem ipsum dolor sit amet."
-
-		[[params.portfolio.gallery]]
-			image = "fulls/03.jpg"
-			thumb = "thumbs/03.jpg"
-			title = "Lorem ipsum dolor."
-			description = "Lorem ipsum dolor sit amet."
-
-		[[params.portfolio.gallery]]
-			image = "fulls/04.jpg"
-			thumb = "thumbs/04.jpg"
-			title = "Lorem ipsum dolor."
-			description = "Lorem ipsum dolor sit amet."
-
-		[[params.portfolio.gallery]]
-			image = "fulls/05.jpg"
-			thumb = "thumbs/05.jpg"
-			title = "Lorem ipsum dolor."
-			description = "Lorem ipsum dolor sit amet."
-
-		[[params.portfolio.gallery]]
-			image = "fulls/06.jpg"
-			thumb = "thumbs/06.jpg"
-			title = "Lorem ipsum dolor."
-			description = "Lorem ipsum dolor sit amet."
+		content = "I'm a DevOps evangelist, automation nut, and peopleware enthusiast."
 
 	[params.recentposts]
 		hide  = false
@@ -144,9 +102,9 @@ paginate = 10
 [[menu.main]]
 	name = "Blog"
 	url  = "post/"
-	weight = 0
+	weight = 10
 
 [[menu.main]]
   name = "Bookshelf"
-  url  = "bookshelf"
-  weight = 0
+  url  = "bookshelf/"
+  weight = 10
