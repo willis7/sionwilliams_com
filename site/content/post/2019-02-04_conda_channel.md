@@ -11,7 +11,8 @@ title = "Building a Private Conda Channel"
 ## Why we need a private conda channel
 
 Here at City Science we build a large number of reusable Python modules. For developers to consume these libraries, we needed to host the different versions at a central location. There are public hosting solutions available, but for now we needed our libraries to remain private. For that reason we opted to create our own channel.
-Pre-requistes
+
+## Pre-requistes
 
 * A familiarity with [Docker](https://docs.docker.com/get-started/)
 * A server with Docker and [Docker compose](https://docs.docker.com/compose/install/) installed
