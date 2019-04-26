@@ -93,7 +93,7 @@ for (*nix):
 
 for (Windows):
 
-    export SONAR_SCANNER_OPTS=-Djavax.net.ssl.trustStore=c:\sonar.keystore -Djavax.net.ssl.trustStorePassword=changeit
+    set SONAR_SCANNER_OPTS=-Djavax.net.ssl.trustStore=c:\sonar.keystore -Djavax.net.ssl.trustStorePassword=changeit
 
 
 ## Troubleshooting Tips
