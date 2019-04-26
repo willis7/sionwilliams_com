@@ -88,9 +88,11 @@ In order to make this work:
 When running the scanner:
 
 for (*nix):
+
     export SONAR_SCANNER_OPTS="-Djavax.net.ssl.trustStore=/path/to/sonar.keystore -Djavax.net.ssl.trustStorePassword=changeit"
 
 for (Windows):
+
     export SONAR_SCANNER_OPTS=-Djavax.net.ssl.trustStore=c:\sonar.keystore -Djavax.net.ssl.trustStorePassword=changeit
 
 
