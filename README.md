@@ -1,5 +1,7 @@
 # Sion Williams Blog
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/be397dbd-26ba-4759-960e-753055ecb9a1/deploy-status)](https://app.netlify.com/sites/xenodochial-chandrasekhar-c71fcc/deploys)
+
 My personal blog built with Victor Hugo and the Hugo Strata theme.
 
 ## Usage
