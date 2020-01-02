@@ -65,7 +65,7 @@ paginate = 10
 		# This can be exact coordinates or a searchable address in google maps
 		gmaps_address = "39.7889055,-120.5443524"
 		address = [
-			"6 Hellings Gardens",
+			"Hellings Gardens",
 			"Broadclyst, Exeter",
 			"United Kingdom"
 		]
