@@ -2,6 +2,7 @@
 banner = "banners/placeholder.png"
 categories = ["devops"]
 date = "2019-04-26T00:01:00+01:00"
+menu = ""
 tags = ["sonarqube","pki", "certs"]
 title = "How to Configure SonarQube Scanner for HTTPS Sonar Server?"
 +++
