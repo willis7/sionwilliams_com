@@ -1,7 +1,7 @@
 +++
 banner = "banners/placeholder.png"
 categories = ["peopleware"]
-date = "2020-02-19T00:01:00+01:00"
+date = "2020-02-17T00:01:00+01:00"
 menu = ""
 tags = ["leadership", "peopleware"]
 title = "Protect Productivity"

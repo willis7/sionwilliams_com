@@ -1,8 +1,9 @@
 +++
 banner = "banners/placeholder.png"
-categories = ["python"]
-date = "2019-02-08T00:01:00+01:00"
-tags = ["python","conda"]
+categories = ["engineering","data science"]
+date = "2020-02-04T00:01:00+01:00"
+menu = ""
+tags = ["python","ci","jupyter"]
 title = "How we perform Continuous Integration (CI) on Jupyter Notebooks"
 +++
 

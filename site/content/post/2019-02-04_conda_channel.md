@@ -1,6 +1,6 @@
 +++
 banner = "banners/placeholder.png"
-categories = ["python","data science"]
+categories = ["engineering","data science"]
 date = "2019-02-04T00:01:00+01:00"
 menu = ""
 tags = ["python","ci","jupyter"]

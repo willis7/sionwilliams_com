@@ -1,6 +1,6 @@
 +++
 banner = "banners/placeholder.png"
-categories = []
+categories = ["other"]
 date = "2020-01-11T00:01:00+01:00"
 tags = []
 title = "The changing Amazon delivery dates"
