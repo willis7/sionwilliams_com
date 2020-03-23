@@ -1,9 +1,9 @@
 +++
 banner = "banners/placeholder.png"
-categories = ["peopleware"]
-date = "2020-02-17T00:01:00+01:00"
+categories = ["engineering", "culture"]
+date = "2020-03-22T00:01:00+01:00"
 menu = ""
-tags = ["leadership", "peopleware"]
+tags = ["engineering", "agile"]
 title = "Agile without engineering principles"
 +++
 
@@ -27,6 +27,9 @@ Agile teams favour iteration over lengthy solution design documents to arrive at
 
 ## Continuous Integration
 If you spend more than 30 minutes merging and running your tests, then you're doing it wrong... and 30 minutes is conservative! Continuous integration is the process of regularly merging your code with the main line of code and validating functionality by running all of your tests at the same time. Continuous integration is often confused with a continuous build, but it's worth noting they are not the same. You are not doing continuous integration just because you run your tests when you commit code.
+
+Dont believe me? Listen to the master (from 9 mins)
+{{< youtube aoMfbgF2D_4 >}}
 
 ## Standards
 Standards carry a negative undertone because they're seen to be restrictive. However, standards take away some of the cognitive load of ensuring we all do things in the same way. In most cases, standards are automated and should form part of the delivery pipeline, therefore, minimising the burden to the developer. Many of the tools in circulation today help minimise bugs in code by encouraging best practice. Embrace standards, don't fight them.

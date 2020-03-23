@@ -3,9 +3,14 @@
 
 ## Usage
 ### :exclamation: Prerequisites
+* Git (for submodules)
 * Hugo
 
 ### :construction_worker: Development
+Pull the submodules
+```bash
+git submodule update --init
+```
 
 Add some content:
 ```bash
