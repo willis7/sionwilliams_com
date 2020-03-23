@@ -1,0 +1,108 @@
+baseURL = "https://sionwilliams.com/"
+languageCode = "en-us"
+title = "Sion Williams"
+theme = "hello-friend-ng"
+
+# 3rd Party
+disqusShortname = "willis7"
+googleAnalytics = "UA-119190708-1"
+
+enableRobotsTXT = true
+enableGitInfo   = false
+enableEmoji     = true
+enableMissingTranslationPlaceholders = false
+disableRSS     = false
+disableSitemap = false
+disable404     = false
+disableHugoGeneratorInject = false
+
+[params]
+    dateform = "Jan 2, 2006"
+    dateformShort = "Jan 2"
+    dateformNum = "2006-01-02"
+    dateformNumTime = "2006-01-02 15:04 -0700"
+
+    # Metadata mostly used in document's head
+    description = "My technology and engineering blog"
+    keywords = "homepage, blog"
+    images = [""]
+
+    # Set disableReadOtherPosts to true in order to hide the links to other posts.
+    disableReadOtherPosts = false
+    # Prefix of link to the git commit detail page. GitInfo must be enabled.
+    # gitUrl = ""
+    # Directory name of your blog content (default is `content/posts`)
+    contentTypeName = "posts"
+    # Default theme "light" or "dark"
+    defaultTheme = "dark"
+
+    # Social icons
+    [[params.social]]
+        name = "twitter"
+        url  = "https://twitter.com/DarthSionno"
+
+    [[params.social]]
+        name = "email"
+        url  = "mailto:sionix.mail@gmail.com"
+
+    [[params.social]]
+        name = "github"
+        url  = "https://github.com/willis7"
+
+    [[params.social]]
+        name = "linkedin"
+        url  = "https://www.linkedin.com/in/sionwilliams/"
+
+    [[params.social]]
+        name = "stackoverflow"
+        url  = "https://stackoverflow.com/users/410527/sion"
+    [[params.social]]
+        name = "gitlab"
+        url  = "https://gitlab.com/willis7"
+    [[params.social]]
+        name = "twitch"
+        url  = "https://www.twitch.tv/sionno"
+    [[params.social]]
+        name = "reddit"
+        url  = "https://www.reddit.com/user/nocpu"
+
+[author]
+    name = "Sion Williams"
+
+[languages]
+    [languages.en]
+        title = "Sion's Blog"
+        subtitle = "Technology and things I care about"
+        keywords = "devops, agile, technology"
+        copyright = "aka Papa DevOps"
+        readOtherPosts = "Read other posts"
+
+    [languages.en.params.logo]
+        logoText = "$ /path/to/knowledge"
+        logoHomeLink = "/"
+
+# or
+#
+# path = "/img/your-example-logo.svg"
+# alt = "Your example logo alt text"
+# And you can even create generic menu
+
+[menu]
+    [[menu.main]]
+        identifier = "about"
+        name       = "About"
+        url        = "about/"
+    [[menu.main]]
+        identifier = "blog"
+        name = "Blog"
+        url = "/posts"
+
+    [[menu.main]]
+        identifier = "categories"
+        name = "Categories"
+        url = "/categories"
+
+    [[menu.main]]
+        identifier = "bookshelf"
+        name = "Bookshelf"
+        url = "/bookshelf"
