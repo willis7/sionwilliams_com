@@ -1,12 +1,15 @@
-+++
-banner = "banners/placeholder.png"
-categories = ["highlights"]
-date = "2019-06-24T09:24:52+01:00"
-menu = ""
-tags = ["devops"]
-title = "Leading the Transformation: Applying Agile and DevOps Principles at Scale"
-+++
-
+---
+title: "Leading the Transformation: Applying Agile and DevOps Principles at Scale"
+date: 2019-06-24T10:02:44Z
+draft: false
+toc: false
+images:
+tags:
+  - highlights
+  - devops
+  - peopleware
+  - culture
+---
 [Leading the Transformation: Applying Agile and DevOps Principles at Scale](https://amzn.to/2Qgl0E9)
 By Gary Gruver, Tommy Mouser, and Gene Kim
 

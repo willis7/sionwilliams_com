@@ -1,13 +1,22 @@
-+++
-banner = "banners/placeholder.png"
-categories = ["devops"]
-date = "2015-03-09T20:46:13+01:00"
-menu = ""
-tags = ["vagrant", "ec2", "aws", "docker", "microservice", "gradle"]
-title = "Vagrant, Amazon EC2, Docker and Microservices pt2."
-+++
+---
+title: "Vagrant, Amazon EC2, Docker and Microservices pt2."
+date: 2015-03-09T10:02:44Z
+draft: false
+toc: true
+images:
+tags:
+  - howto
+  - vagrant
+  - devops
+  - microservice
+  - gradle
+  - vagrant
+  - aws
+  - ec2
+  - docker
+---
 
-## Part 2
+## Intro to part 2
 
 In the first part of this tutorial, we showed how to use Vagrant to automate and manage an Amazon EC2 instance. We defined a simple Vagrantfile to specify certain attributes for an instance to run, and got it running using Vagrant's command line tools. In this part of the tutorial, we'll be using Puppet to define and automate the configuration details for our instance. This way, whenever we start up the environment with `vagrant up`, it will be set up to run Docker without any additional manual configuration.
 
@@ -19,7 +28,7 @@ The documentation for Docker is very good. Let's use that to drive the requireme
 
 Lets start by setting up our puppet dev environment:
 
-```
+``` bash
 # create a dir for puppet scripts from project root
 $ mkdir manifests
 
@@ -32,7 +41,7 @@ $ touch default.pp
 
 First thing we will want to do on our newly created instance is ensure the +apt-get+ package database is up to date. This can be achieved with the following block:
 
-```
+``` ruby
 exec { "apt-get update":
   path => "/usr/bin",
 }
@@ -40,7 +49,7 @@ exec { "apt-get update":
 
 Once thats complete we will want to install the docker package:
 
-```
+``` ruby
 package { "docker.io":
   ensure  => present,
   require => Exec["apt-get update"],
@@ -51,13 +60,13 @@ NOTE: here we have built a dependency in Puppet. We are saying we don't want to 
 
 At this point we have a bit of a chicken and egg situation. We want to run Puppet on our box to provision it, but Puppet isn't currently installed. We can use the shell provisioner to solve that initial problem.
 
-```
+``` ruby
 config.vm.provision :shell do |shell|
    shell.inline = "sudo apt-get install -y puppet-common"
  end
 ```
 
-NOTE: the +-y+ is a nice trick which we use to force a 'yes' when prompted if we want to continue.
+NOTE: the `-y` is a nice trick which we use to force a 'yes' when prompted if we want to continue.
 
 Since we have placed our puppet script in the default location all we need to do is add the following line to the Vagrantfile.
 

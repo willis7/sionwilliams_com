@@ -1,12 +1,15 @@
-+++
-banner = "banners/placeholder.png"
-categories = ["devops"]
-date = "2018-04-25T09:24:52+01:00"
-menu = ""
-tags = ["vagrant", "make"]
-title = "Parallelise Vagrant Up With Make"
-+++
-
+---
+title: "Parallelise Vagrant Up With Make"
+date: 2018-04-25T10:02:44Z
+draft: false
+toc: false
+images:
+tags:
+  - howto
+  - make
+  - devops
+  - vagrant
+---
 Spinning up more than one Vagrant box can be slow and tedious. Below is a solution for speeding up the `vagrant up` process when you need more than one box and Docker isn't a valid option.
 
 Annoyingly, this solution requires a `Vagrantfile` per machine, and wont work if you put loops in your `Vagrantfile`. Here's my folder structure:
@@ -25,7 +28,7 @@ Annoyingly, this solution requires a `Vagrantfile` per machine, and wont work if
 
 The `Makefile` is where the magic happens...
 
-```
+``` makefile
 node-1:
 	cd vagrant/node-1 && vagrant up
 

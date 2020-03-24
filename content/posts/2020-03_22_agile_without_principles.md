@@ -1,12 +1,15 @@
-+++
-banner = "banners/placeholder.png"
-categories = ["engineering", "culture"]
-date = "2020-03-22T00:01:00+01:00"
-menu = ""
-tags = ["engineering", "agile"]
-title = "Agile without engineering principles"
-+++
+---
+title: "Agile without engineering principles"
+date: 2020-03-22T10:02:44Z
+draft: false
+toc: true
+images:
+tags:
+  - engineering
+  - culture
+---
 
+## Introduction
 There's a great buzz with my client at the moment, and I think it's because they're finally taking Agile seriously. Operating models are being pulled together with Agile at the core, and workshops are underway to ensure our processes are lean but effective. This is wonderful, but I'm here to say that implementing Agile without a focus on engineering principles is like rearranging deck chairs on the Titanic. 
 
 When companies adopt Agile, the debate always ends up being one of Kanban or Scrum.  There's one big problem in that for me; they're both variations of workflow management (or project management), and neither offers any guidance on the engineering principles we should adopt. Extreme Programming did a little better because it was explicit about engineering practices. XP suggests teams should sit together, testing is at its core (TDD), as is pair-programming, along with continuous integration and many other capabilities. I echo many of these capabilities in the DevOps capability map.

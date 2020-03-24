@@ -1,11 +1,13 @@
-+++
-banner = "banners/placeholder.png"
-categories = ["devops"]
-date = "2015-02-17T20:46:13+01:00"
-menu = ""
-tags = ["mongodb"]
-title = "Setup MongoDB on Mac Yosemite"
-+++
+---
+title: "Setup MongoDB on Mac Yosemite"
+date: 2015-02-17T10:02:44Z
+draft: false
+toc: true
+images:
+tags:
+  - howto
+  - engineering
+---
 
 ## Install MongoDB with Homebrew
 

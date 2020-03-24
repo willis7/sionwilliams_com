@@ -1,11 +1,15 @@
-+++
-banner = "banners/placeholder.png"
-categories = ["engineering","data science"]
-date = "2020-02-04T00:01:00+01:00"
-menu = ""
-tags = ["python","ci","jupyter"]
-title = "How we perform Continuous Integration (CI) on Jupyter Notebooks"
-+++
+---
+title: "How we perform Continuous Integration (CI) on Jupyter Notebooks"
+date: 2020-02-04T10:02:44Z
+draft: false
+toc: true
+images:
+tags:
+  - python
+  - ci
+  - engineering
+  - data science
+---
 
 > I first wrote this blog when I was working at City Science
 

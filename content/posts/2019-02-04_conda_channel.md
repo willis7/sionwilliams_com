@@ -1,11 +1,19 @@
-+++
-banner = "banners/placeholder.png"
-categories = ["engineering","data science"]
-date = "2019-02-04T00:01:00+01:00"
-menu = ""
-tags = ["python","ci","jupyter"]
-title = "Building a Private Conda Channel"
-+++
+---
+title: "Building a Private Conda Channel"
+date: 2019-02-04T10:02:44Z
+draft: false
+toc: true
+images:
+tags:
+  - engineering
+  - devops
+  - data science
+  - python
+  - ci
+  - jupyter
+  - howto
+---
+
 
 > I first wrote this blog when I was working at City Science
 

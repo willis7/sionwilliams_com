@@ -1,11 +1,15 @@
-+++
-banner = "banners/placeholder.png"
-categories = ["devops"]
-date = "2019-04-26T00:01:00+01:00"
-menu = ""
-tags = ["sonarqube","pki", "certs"]
-title = "How to Configure SonarQube Scanner for HTTPS Sonar Server?"
-+++
+---
+title: "How to Configure SonarQube Scanner for HTTPS Sonar Server?"
+date: 2019-04-26T10:02:44Z
+draft: false
+toc: true
+images:
+tags:
+  - devops
+  - sonarqube
+  - troubleshooting
+  - howto
+---
 
 ## Issue
 * I have a Sonar server configured with HTTPS and want to configure the SonarQube plugin in Jenkins to use it

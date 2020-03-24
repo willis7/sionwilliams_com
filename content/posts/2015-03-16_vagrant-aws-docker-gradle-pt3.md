@@ -1,11 +1,21 @@
-+++
-banner = "banners/placeholder.png"
-categories = ["devops"]
-date = "2015-03-16T20:46:13+01:00"
-menu = ""
-tags = ["vagrant", "ec2", "aws", "docker", "microservice", "gradle", "ansible"]
-title = "Vagrant, Amazon EC2, Docker and Microservices pt3."
-+++
+---
+title: "Vagrant, Amazon EC2, Docker and Microservices pt3."
+date: 2015-03-16T10:02:44Z
+draft: false
+toc: true
+images:
+tags:
+  - howto
+  - vagrant
+  - devops
+  - microservice
+  - gradle
+  - vagrant
+  - aws
+  - ec2
+  - docker
+  - ansible
+---
 
 ## Part 3 - a bit of back pedaling
 
@@ -25,7 +35,7 @@ Puppet has manifests, Chef has cookbooks and Ansible has playbooks.
 
 As we did with Puppet, lets create an Ansible dev environment:
 
-```
+``` bash
 # create a dir for ansible scripts from project root
 $ mkdir playbooks
 
@@ -38,7 +48,7 @@ $ touch playbook.yml
 
 The tasks are the same as before, and in the +playbook.yml+ we express them in the following way:
 
-```
+``` yaml
 ---
 - hosts: all
   sudo: true
@@ -51,8 +61,7 @@ The tasks are the same as before, and in the +playbook.yml+ we express them in t
 
 Now we need to tell Vagrant that we want to use the Ansible provisioner. Replace the previous provisioner blocks with the following:
 
-[source, ruby]
-```
+``` ruby
 config.vm.provision :ansible do |ansible|
     ansible.playbook = "playbooks/playbook.yml"
 end
@@ -78,7 +87,7 @@ default                    : ok=3    changed=1    unreachable=0    failed=0
 
 Again, we can ssh into the box and prove Docker is installed:
 
-```
+``` bash
 # ssh into our instance
 vagrant ssh
 
@@ -100,7 +109,7 @@ The Docker installation task is a nice place to add some separation. Whilst the 
 
 Start by adding a new directory called +tasks+ and then add a file for docker, +docker.yml+:
 
-```
+``` yaml
 ---
 - name: install docker.io
   apt: name=docker.io state=present
@@ -110,7 +119,7 @@ NOTE: Don't get caught out by whitespaces. They will fail your build.
 
 Now, we need to update our playbook to include this new file. Change your +playbook.yml+ file to match the following:
 
-```
+``` yaml
 ---
 - hosts: all
   sudo: true

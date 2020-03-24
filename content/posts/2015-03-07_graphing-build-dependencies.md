@@ -1,11 +1,14 @@
-+++
-banner = "banners/placeholder.png"
-categories = ["devops"]
-date = "2015-03-07T20:46:13+01:00"
-menu = ""
-tags = ["gradle", "maven", "pom", "dependencies", "graph"]
-title = "Dependency Management - Modeling Suppliers and Consumers pt.1"
-+++
+---
+title: "Dependency Management - Modeling Suppliers and Consumers pt.1"
+date: 2015-03-07T10:02:44Z
+draft: false
+toc: true
+images:
+tags:
+  - howto
+  - engineering
+  - devops
+---
 
 Dependency management has come a long way over the past 10 years, but I believe it has some way to go before we can say the problem is solved.
 
@@ -35,7 +38,7 @@ The underlying data model of a graph database is whats called the Property Graph
 
 This works really well for the problem we're trying to solve because we're talking about artifacts (nodes), and their relationships with each other artifacts. Lets look at some code:
 
-```
+``` java
 @NodeEntity
 public class Artifact {
 
@@ -59,6 +62,6 @@ public class Artifact {
 
 NOTE: I'm using Spring heavily here - this may look unfamiliar if you don't know Spring.
 
-Here you can see I've constructed the node using the attributes I defined earlier. There is an id which is annotated with +@GraphId+ that Neo4j uses to track the data, a groupId, artifactId and version. Inside this node entity I have also defined a +Set<Artifact>+ of dependencies marked up as +@RelatedTo+. This means that every member of this set is expected to also exist as a separate +Artifact+ node, and this node +DEPENDS_ON+ them.
+Here you can see I've constructed the node using the attributes I defined earlier. There is an id which is annotated with `@GraphId` that Neo4j uses to track the data, a groupId, artifactId and version. Inside this node entity I have also defined a `Set<Artifact>` of dependencies marked up as `@RelatedTo`. This means that every member of this set is expected to also exist as a separate `Artifact` node, and this node `DEPENDS_ON` them.
 
 So, this concludes part 1. Pt2 coming soon..

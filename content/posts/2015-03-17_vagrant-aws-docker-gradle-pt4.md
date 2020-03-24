@@ -1,11 +1,21 @@
-+++
-banner = "banners/placeholder.png"
-categories = ["devops"]
-date = "2015-03-17T20:46:13+01:00"
-menu = ""
-tags = ["vagrant", "ec2", "aws", "docker", "microservice", "gradle", "ansible", "spring"]
-title = "Vagrant, Amazon EC2, Docker and Microservices pt4."
-+++
+---
+title: "Vagrant, Amazon EC2, Docker and Microservices pt4."
+date: 2015-03-17T10:02:44Z
+draft: false
+toc: true
+images:
+tags:
+  - howto
+  - vagrant
+  - devops
+  - microservice
+  - gradle
+  - vagrant
+  - aws
+  - ec2
+  - docker
+  - ansible
+---
 
 ## The Microservice
 
@@ -21,7 +31,7 @@ Now that we can do the basics with Docker lets start setting our requirements fo
 
 Lets start building our `Dockerfile`. I have created mine in `${projectDir}/app/docker`:
 
-```
+``` dockerfile
 FROM flurdy/oracle-java7:latest
 MAINTAINER willis7
 EXPOSE 8080
@@ -30,29 +40,29 @@ CMD java -jar /opt/msvc/gs-spring-boot.jar
 ```
 
 
-With the FROM keyword Docker will first look for the image locally, then look to the public repo if it doesn't find it.
+With the `FROM` keyword Docker will first look for the image locally, then look to the public repo if it doesn't find it.
 
-MAINTAINER simply tells the reader who the author of this Dockerfile is.
+`MAINTAINER` simply tells the reader who the author of this Dockerfile is.
 
 
-EXPOSE tells Docker that a port is to be exposed when the container is started. Now, lets add our build output to the container; we do that using the ADD keyword:
+`EXPOSE` tells Docker that a port is to be exposed when the container is started. Now, lets add our build output to the container; we do that using the `ADD` keyword:
 
-The ADD instruction basically takes a <src> and <dest>. If the <dest> path doesn't exist, it is created along with the missing directories along its path.
+The `ADD` instruction basically takes a <src> and <dest>. If the <dest> path doesn't exist, it is created along with the missing directories along its path.
 
-Finally, we need to tell Docker what command should be run when the container is executed. We do that with the CMD keyword.
+Finally, we need to tell Docker what command should be run when the container is executed. We do that with the `CMD` keyword.
 
 And thats it!
 
 If you look in my github repository you will find 2 helper scripts - one to build the image and the second to run it.
 
-```
+``` bash
 docker-build.sh
 docker-run.sh
 ```
 
 Lets run through the steps:
 
-```
+``` bash
 # Build the source code and run unit tests
 $ cd app
 $ .gradlew clean build

@@ -1,12 +1,20 @@
-+++
-banner = "banners/placeholder.png"
-categories = ["devops"]
-date = "2015-03-07T20:46:13+01:00"
-menu = ""
-tags = ["vagrant", "ec2", "aws", "docker", "microservice", "gradle"]
-title = "Vagrant, Amazon EC2, Docker and Microservices pt1."
-+++
-
+---
+title: "Vagrant, Amazon EC2, Docker and Microservices pt1."
+date: 2015-03-07T10:02:44Z
+draft: false
+toc: true
+images:
+tags:
+  - howto
+  - vagrant
+  - devops
+  - microservice
+  - gradle
+  - vagrant
+  - aws
+  - ec2
+  - docker
+---
 Microservices are all the rage at the moment, but from my experience they just move the bottleneck. Yes, the speed of development increases massively, but it does so at the cost of an increased dependency on the Build and Ops guys.
 
 This blog series is about using Docker to run a complete and fully functional microservice in the cloud using Vagrant, Amazon AWS and Docker. The goals are as follows:
@@ -32,7 +40,7 @@ NOTE: This took a while on my machine without a great deal of feedback. Just be 
 
 So, now lets create our project and the Vagrantfile. Run the following commands:
 
-```
+``` bash
 # create a project folder
 $ mkdir infra-n-app-automation
 
@@ -54,7 +62,7 @@ the comments in the Vagrantfile as well as documentation on
 
 If we follow the Vagrant AWS plugin docs, we can see the basic Vagrantfile should look as follows:
 
-```
+``` ruby
 Vagrant.configure("2") do |config|
   config.vm.box = "dummy"
 
@@ -74,14 +82,14 @@ end
 
 The guide suggests putting your +access_key_id+ and +secret_access_key+ in the Vagrantfile, which is fine if you have a private repository, but as I plan on making this public I will set them using environment variables.
 
-```
+``` bash
 export AWS_ACCESS_KEY="AKXXXXXXXXXXXXXXX"
 export AWS_SECRET_KEY="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 ```
 
 After configuring my Security Group, selecting an AMI and sorting my private key, my Vagrantfile now looks like:
 
-```
+``` ruby
 # -*- mode: ruby -*-
 # vi: set ft=ruby :
 
