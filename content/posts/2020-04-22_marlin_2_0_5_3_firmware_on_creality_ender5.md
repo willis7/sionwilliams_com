@@ -9,7 +9,7 @@ tags:
   - creality
   - ender 5
 ---
-
+{{< figure src="/img/marlin-250.png">}}
 
 I don't know if it's the lack of sleep ( I have a newborn in the house) or if this genuinely was a tough project, but I finally got everything working after five evenings of hacking.
 

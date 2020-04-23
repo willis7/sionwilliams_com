@@ -18,6 +18,6 @@ I primarily use the disk station for backing up my various cloud providers (Drop
 
 A word of caution. My upgrade was made easier by the fact both of my machines were in the plus (+) range. Your mileage may vary, but be sure to read the documentation:
 
-[How to migrate between Synology NAS (DSM 6.0 and later](https://www.synology.com/en-us/knowledgebase/DSM/tutorial/General_Setup/How_to_migrate_between_Synology_NAS_DSM_6_0_and_later#t2)
+[How to migrate between Synology NAS (DSM 6.0 and later)](https://www.synology.com/en-us/knowledgebase/DSM/tutorial/General_Setup/How_to_migrate_between_Synology_NAS_DSM_6_0_and_later#t2)
 
 After the wizard was complete, I reassigned the fixed IP from my old device to the new one, and it was as if it was the same machine. Even the 2-factor authentication moved over. I did have to change the hostname too because even that moved over as well.
