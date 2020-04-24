@@ -12,7 +12,7 @@ tags:
 
 {{< figure src="/img/synology_1019plus.jpeg" title="Synology DS1019+" width="50%" height="50%">}}
 
-I have to admit, despite also backing up to Backblaze I was quite nervous about moving my data from one machine to another. However, moving disks from one Synology to another couldn't be more straightforward. 
+I have to admit, despite also backing up to [Backblaze](https://www.backblaze.com/b2/cloud-storage.html#af9uze) I was quite nervous about moving my data from one machine to another. However, moving disks from one Synology to another couldn't be more straightforward. 
 
 I primarily use the disk station for backing up my various cloud providers (Dropbox etc.), photos of my kids, business documents, the odd docker container (pihole, primarily) and Plex. I have 2TB drives in Synology Hybrid Raid configuration, which is only at 21% capacity, but I would like to start organising my volumes more effectively. In the first instance, I would like a volume primarily for media and downloads. For a long time, I attached an external drive for this solution, but as I was already super impressed with the [DS218+](https://amzn.to/2xT4Eed), and a little glum with the coronavirus lockdown, I decided to upgrade to the [DS1019+](https://amzn.to/2x2MWV8). 
 
