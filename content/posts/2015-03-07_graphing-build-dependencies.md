@@ -26,7 +26,7 @@ As I mentioned earlier a Maven POM provides us with a way of describing what dep
 
 Lets turn our dependency tree into a graphical representation:
 
-![dependency tree](http://site.kuali.org/maven/plugins/graph-maven-plugin/1.2.3/graph/direct/compile/flat.png)
+{{< figure src="/img/dependencies.png">}}
 
 Wouldn't it be good if we could store all of these project graphs in a single location where they could establish relationships with other projects?
 
