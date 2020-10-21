@@ -10,7 +10,7 @@ tags:
   - backblaze
 ---
 
-{{< figure src="/img/synology_1019plus.jpeg" title="Synology DS1019+" width="50%" height="50%">}}
+{{< figure src="/img/synology_1019plus.jpeg" caption="Synology DS1019+" width="50%" height="50%">}}
 
 I have to admit, despite also backing up to [Backblaze](https://www.backblaze.com/b2/cloud-storage.html#af9uze) I was quite nervous about moving my data from one machine to another. However, moving disks from one Synology to another couldn't be more straightforward. 
 
