@@ -14,7 +14,7 @@ git submodule update --init
 
 Add some content:
 ```bash
-hugo new posts/my-first-post.md
+hugo new "posts/$(date +"%Y-%m-%d")-my-first-post.md"
 ```
 
 Start the Hugo server with live reloading:
