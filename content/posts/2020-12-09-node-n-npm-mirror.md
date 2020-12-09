@@ -13,13 +13,13 @@ If like myself you work in a corporate environment and you have policies which r
 
 ## Node
 From the admin menu, select new remote and then create a new repository of type generic.
-{{< figure src="/img/art_new_remote.png" width="75%" height="75%" caption="New Generic Repo">}}
+{{< figure src="/img/art_new_remote.png" caption="New Generic Repo">}}
 If your company has a naming scheme, use that for the name, or simply use something descriptive. Then for the URL, use the same as the diagram below.
-{{< figure src="/img/art_new_remote_conf.png" width="75%" height="75%" caption="Node Repo Config">}}
+{{< figure src="/img/art_new_remote_conf.png" caption="Node Repo Config">}}
 
 ## NPM
 Now create a new remote repository but this time make an npm type with the following configuration.
-{{< figure src="/img/art_npm_remote.png" width="75%" height="75%" caption="NPM Repo Config">}}
+{{< figure src="/img/art_npm_remote.png" caption="NPM Repo Config">}}
 
 ## NVM
 Here's a juicy little extra for those of you that also use node version manager. 
