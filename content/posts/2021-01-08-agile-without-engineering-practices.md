@@ -1,7 +1,7 @@
 ---
 title: "Agile without Engineering Practices"
 date: 2021-01-08T00:35:59Z
-draft: true
+draft: false
 toc: false
 ---
 
