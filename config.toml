@@ -85,6 +85,10 @@ disableHugoGeneratorInject = false
         logoText = "$ /path/to/knowledge"
         logoHomeLink = "/"
 
+[markup]
+  [markup.goldmark]  
+    [markup.goldmark.renderer]
+        unsafe = true
 # or
 #
 # path = "/img/your-example-logo.svg"
