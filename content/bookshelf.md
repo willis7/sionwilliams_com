@@ -6,6 +6,8 @@ banner = "images/banners/placeholder.png"
 
 Full disclosure; the links below are to my Amazon Associates account, and so I would get a little financial kickback if you decided to purchase. Also, take a look at `highlights` under the `Categories` tab.
 
+* [The Delicate Art of Bureaucracy: Digital Transformation With the Monkey, the Razor, and the Sumo Wrestler][schwartz2020] by Mark Schwartz
+* [Sooner Safer Happier: Patterns and Antipatterns for Organizational Agility: Antipatterns and Patterns for Business Agility][smart2020] by Jonathan Smart
 * [Accelerate: The Science of Lean Software and DevOps: Building and Scaling High Performing Technology Organizations][forsgren2018] by Nicole Forsgren PhD, Jez Humble, Gene Kim 
 * [Designing Delivery][sussna2015] by Jeff Sussna
 * [The Phoenix Project][kim2018] by Gene Kim
@@ -31,3 +33,5 @@ Full disclosure; the links below are to my Amazon Associates account, and so I w
 [molesky2015]: https://amzn.to/2tkBe64
 [turnbull2016]: https://amzn.to/35i4fN9
 [gruver2015]: https://amzn.to/2Qgl0E9
+[smart2020]: https://amzn.to/3sZRPpD
+[schwartz2020]: https://amzn.to/3d0lutn
