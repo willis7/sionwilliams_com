@@ -10,6 +10,7 @@ tags:
   - pocket
   - one note
   - zettelkasten
+  - digital garden
 ---
 
 > Some might argue I don't have one, let alone two.
