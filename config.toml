@@ -106,10 +106,10 @@ disableHugoGeneratorInject = false
         name = "Blog"
         url = "/posts"
 
-    # [[menu.main]]
-    #     identifier = "tags"
-    #     name = "Tags"
-    #     url = "/tags"
+    [[menu.main]]
+        identifier = "tags"
+        name = "Tags"
+        url = "/tags"
 
     [[menu.main]]
         identifier = "bookshelf"

@@ -11,6 +11,12 @@ Pull the submodules
 ```bash
 git submodule update --init
 ```
+To update the submodules.
+``` bash
+git submodule update --remote --merge
+```
+Make sure my fork is up to date!
+
 
 Add some content:
 ```bash
