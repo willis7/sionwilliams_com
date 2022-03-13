@@ -1,0 +1,3 @@
+baseurl = "https://preview--sionwilliams.com/"
+buildDrafts = true
+buildFuture = true

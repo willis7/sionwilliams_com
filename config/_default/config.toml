@@ -5,7 +5,6 @@ theme = "hello-friend-ng"
 
 # 3rd Party
 disqusShortname = "willis7"
-googleAnalytics = "UA-119190708-1"
 
 enableRobotsTXT = true
 enableGitInfo   = false
@@ -16,11 +15,11 @@ disableSitemap = false
 disable404     = false
 disableHugoGeneratorInject = false
 
-[taxonomies]
-    category = "categories"
-    tag = "tags"
+[author]
+    name = "Sion Williams"
 
 [params]
+    copyright = "Created with ♥ by <a href='/about/'>Sion Williams</a>. All content is the property of Sion Williams. This blog, its content, and opinions are my own."
     dateform = "Jan 2, 2006"
     dateformShort = "Jan 2"
     dateformNum = "2006-01-02"
@@ -39,6 +38,7 @@ disableHugoGeneratorInject = false
     contentTypeName = "posts"
     # Default theme "light" or "dark"
     defaultTheme = "dark"
+    mainSections = ["posts"]
 
     # Social icons
     [[params.social]]
@@ -70,8 +70,6 @@ disableHugoGeneratorInject = false
         name = "reddit"
         url  = "https://www.reddit.com/user/nocpu"
 
-[author]
-    name = "Sion Williams"
 
 [languages]
     [languages.en]
@@ -89,29 +87,33 @@ disableHugoGeneratorInject = false
   [markup.goldmark]  
     [markup.goldmark.renderer]
         unsafe = true
-# or
-#
-# path = "/img/your-example-logo.svg"
-# alt = "Your example logo alt text"
-# And you can even create generic menu
 
 [menu]
+    [[menu.main]]
+        name ="Home"
+        url = "/"
+        weight = 1
     [[menu.main]]
         identifier = "about"
         name       = "About"
         url        = "about/"
-
+        weight = 2
     [[menu.main]]
-        identifier = "blog"
-        name = "Blog"
+        identifier = "posts"
+        name = "Posts"
         url = "/posts"
-
+        weight = 3
     [[menu.main]]
         identifier = "tags"
         name = "Tags"
         url = "/tags"
-
+        weight = 4
     [[menu.main]]
         identifier = "bookshelf"
         name = "Bookshelf"
         url = "/bookshelf"
+        weight = 5
+
+[taxonomies]
+    category = "categories"
+    tag = "tags"

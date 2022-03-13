@@ -1,0 +1,4 @@
+baseurl = "https://sionwilliams.com/"
+buildDrafts = false
+buildFuture = false
+googleAnalytics = "UA-119190708-1"
