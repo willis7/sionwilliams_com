@@ -35,10 +35,10 @@ Add some content:
 hugo new "posts/$(date +"%Y-%m-%d")-my-first-post.md"
 ```
 
-Start the Hugo server with live reloading:
+Preview with live reloading:
 
 ```bash
-hugo server -D
+hugo server -D -F
 ```
 
 ### :package: Static build

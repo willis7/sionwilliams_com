@@ -1,0 +1,3 @@
+baseurl = "https://staging--sionwilliams.com/"
+buildDrafts = false
+buildFuture = false
