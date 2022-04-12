@@ -5,7 +5,7 @@ draft: false
 toc: false
 images:
 tags:
-  - untagged
+  - career
 ---
 
 You've all heard that we're currently going through a great resignation. I almost added to that statistic, but I want to explain why I didn't go.
