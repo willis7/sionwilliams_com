@@ -15,6 +15,8 @@ Welcome to Sion's (My) personal blog.
 
 ### :construction_worker: Development
 
+Create a new branch. Thanks to [this article](https://digitaldrummerj.me/blog-preview-with-netlify/) the project now has a preview mode that will run against a PR.
+
 Pull the submodules
 
 ```bash
