@@ -8,7 +8,4 @@ tags:
   - reading
 ---
 
-    15 Visuals that will motivate you to read more books:
-
-    1. "Read what you love until you love to read." -@naval pic.twitter.com/3cQzPyyt2P
-    — Alex & Books 📚 (@AlexAndBooks_) March 28, 2022
+{{< tweet user="AlexAndBooks_" id="1508448004767952896" >}}
