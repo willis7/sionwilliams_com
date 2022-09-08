@@ -11,10 +11,10 @@ tags:
 Any engineer who has started a new project will know how time-consuming bootstrapping a new repo can be. You have to configure your build scripts, configure your test tool, add your pipeline scripts and so on. Most of the time, we get into a build fix cycle because the most obvious thing to do is copy and paste from another similar repository. When we first build the project, it inevitably fails because we forget to change a copied variable from the old project. We make the fix and build again.
 
 ## Our build framework
-We have converged on Gradle as our primary build system. Some of our early projects used Maven, but the problem was it was pretty limiting for our non-JVM projects. Gradle has a fantastic plugin ecosystem which is easy to extend for more exotic use cases. As we work with languages such as PLSQL, Javascript and a few others, our mission was to have one build framework that could rule them all. Using Gradle means that developers need to learn one build framework, leading to smoother transitioning between projects. This had the added benefit that we could standardise task names and also the build pipeline. Some people will remind me that Maven is also extendable, but wrangling that much XML is a real PITA.
+We have converged on [Gradle](https://gradle.org/) as our primary build system. Some of our early projects used Maven, but the problem was it was pretty limiting for our non-JVM projects. Gradle has a fantastic plugin ecosystem which is easy to extend for more exotic use cases. As we work with languages such as PLSQL, Javascript and a few others, our mission was to have one build framework that could rule them all. Using Gradle means that developers need to learn one build framework, leading to smoother transitioning between projects. This had the added benefit that we could standardise task names and also the build pipeline. Some people will remind me that Maven is also extendable, but wrangling that much XML is a real PITA.
 
 ## Pipelines
-There have been some great tools in this space for a long time; CircleCI, Github Actions, and Azure DevOps. However, as we already had a large Jenkins deployment, it made sense to stick with that. Most of our recent effort has been spent on converting freestyle jobs to pipeline jobs. As a result, we are slowly reaching a point where most of our repositories have adopted a standard Jenkinsfile that contains the following typical steps:
+There have been some great tools in this space for a long time; [CircleCI](https://circleci.com/), Github Actions, and Azure DevOps. However, as we already had a large [Jenkins](https://www.jenkins.io/) deployment, it made sense to stick with that. Most of our recent effort has been spent on converting freestyle jobs to pipeline jobs. As a result, we are slowly reaching a point where most of our repositories have adopted a standard Jenkinsfile that contains the following typical steps:
 - Compiling/Building your code and artefacts
 - Code Linting
 - Unit Test
@@ -33,6 +33,7 @@ There have been some great tools in this space for a long time; CircleCI, Github
 - Promote: Release Package
 - Deploy: Prod
 - Smoke Test
+
 When automating bootstrapping, we wanted all projects to follow this standard.
 
 ## Introducing Backstage
@@ -66,7 +67,7 @@ Given our use case and the number of features in Backstage, some people might qu
 
 {{< figure src="/img/image_1662632322371_0.png" alt="backstage tech radar">}}
 
-Service Now is an expensive tool to license. We can't give everyone a licence as it is too costly. However, within the terms of use, it is possible to use the API to pull some high-level data out. In the image above, you see a plugin we created in Backstage to pull high-level stats directly from Service Now. I have omitted data for company confidentiality, but you get the gist.
+ServiceNow is an expensive tool to license. We can't give everyone a licence as it is too costly. However, within the terms of use, it is possible to use the API to pull some high-level data out. In the image above, you see a plugin we created in Backstage to pull high-level stats directly from ServiceNow. I have omitted data for company confidentiality, but you get the gist.
 
 ## Conclusion
 Backstage is a feature-rich platform that dramatically improves my organisation's developer experience. While our usage is still lightweight, we have already seen productivity gains. I must admit, our use didn't justify adopting a platform, which Backstage is, but I am glad we did. The more we integrate our tools, such as Github, SonarCloud etc., the more value we unlock. We will soon incorporate our Cloud Cost Management into Backstage, but you will have to wait for a follow-up blog entry for the details on that one.
