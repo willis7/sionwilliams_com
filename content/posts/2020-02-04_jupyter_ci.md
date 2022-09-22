@@ -27,15 +27,17 @@ KISS
 
 > Keep it simple, stupid
 
-At City Science we use Jupyter Notebooks as a tool to support experimentation. We like Jonathan Whitmore’s concept of a lab(dev) notebook to describe this stage. Whilst we are advocates of shipping quality through the use of linting and testing, at the lab book stage we dont let those disciplines distract us. Our requirement for CI on the lab books is simple; run the book from start to finish with no errors.
-nbconvert
+At City Science we use Jupyter Notebooks as a tool to support experimentation. We like [Jonathan Whitmore’s concept of a lab(dev) notebook](https://www.svds.com/tbt-jupyter-notebook-best-practices-data-science/) to describe this stage. Whilst we are advocates of shipping quality through the use of linting and testing, at the lab book stage we dont let those disciplines distract us. Our requirement for CI on the lab books is simple; run the book from start to finish with no errors.
+
+### nbconvert
 
 nbconvert is a tool for converting notebooks to different formats. One of its features is that it can execute the notebook and report on errors. This is quite cool because it gives us a way to execute our notebooks from the terminal:
 
 `jupyter nbconvert --to notebook --execute --ExecutePreprocessor.kernel_name=python3 --output output.ipynb <path_to_ipynb>`
 
-For the most part this is trivial, but one of the lesser obvious options is the `--ExecutePreprocessor.kernel_name=python3` argument. At the time of writing there was an issue with the tool which prevented nbconvert honouring the environment defined in the .ipynb. To overcome this we source our environment, but tell the tool we are using python3. More on environments later.
-Opt-out
+For the most part this is trivial, but one of the lesser obvious options is the `--ExecutePreprocessor.kernel_name=python3` argument. At the time of writing there was an issue with the tool which prevented nbconvert honouring the environment defined in the `.ipynb`. To overcome this we source our environment, but tell the tool we are using python3. More on environments later.
+
+### Opt-out
 
 We encourage our Data Scientists to ensure their notebooks are friendly for others to use, however, there are occasions when they dont want to CI their books. When this situation arises, the DS can add an empty file with name noci and that project is excluded from the CI.
 
@@ -43,7 +45,7 @@ We encourage our Data Scientists to ensure their notebooks are friendly for othe
 
 ## Environments
 
-This was the hardest problem to solve. We didn’t want to slow productivity by enforcing an environment.yml for every notebook, but we also need to replicate the environment on the CI server. To overcome this we use the 80/20 rule. The idea here is that 80% of our notebooks should work with the “base” environment, but for the 20% that dont, they will need to define their own environments using an environment.yml.
+This was the hardest problem to solve. We didn’t want to slow productivity by enforcing an `environment.yml` for every notebook, but we also need to replicate the environment on the CI server. To overcome this we use the 80/20 rule. The idea here is that 80% of our notebooks should work with the “base” environment, but for the 20% that dont, they will need to define their own environments using an `environment.yml`.
 
 Our repositories are structured similar to:
 ```
