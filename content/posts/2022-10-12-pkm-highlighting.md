@@ -1,8 +1,8 @@
 ---
 title: "PKM Systems: Highlighting"
-date: 2022-09-08T01:27:00+01:00
+date: 2022-10-12T01:27:00+01:00
 draft: false
-toc: true
+toc: false
 images:
 tags:
   - pkm
@@ -10,7 +10,7 @@ tags:
 
 Yup, I have a highlighting system.  
 
-{{< figure src="/img/IMG_5671.JPG" alt="zebra midliners">}}
+{{< figure src="/img/IMG_5671.JPG" alt="zebra midliners" width="50%" height="50%">}}
 
 I spend a lot of time on my personal knowledge management (PKM) system, and over the years I have developed tools and systems to improve it. One of those is my highlighting system.  
 I use the [Zebra Soft Brush Mildliner](https://amzn.to/3rN4mhq) set and they come in packs of 5. 
