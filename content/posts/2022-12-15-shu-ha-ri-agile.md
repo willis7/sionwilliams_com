@@ -1,7 +1,7 @@
 ---
 title: "Shu Ha Ri and Agile"
 date: 2022-12-15T20:21:01Z
-draft: true
+draft: false
 toc: false
 images:
 tags:
