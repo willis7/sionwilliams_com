@@ -1,5 +1,5 @@
 ---
-title: "Failure Is Not an Option in Software"
+title: "Leadership: Failure Is Not an Option"
 date: 2022-12-28T11:23:10Z
 draft: false
 toc: true
