@@ -6,8 +6,12 @@ banner = "images/banners/placeholder.png"
 
 Full disclosure; the links below are to my Amazon Associates account, and so I would get a little financial kickback if you decided to purchase. Also, take a look at `highlights` under the `Categories` tab.
 
-* [Outcomes Over Output: Why customer behavior is the key metric for business success Paperback](https://amzn.to/311wRhC) - Joshua Seiden
+* [Failure is not an option](https://amzn.to/3PUTqJL) - Gene Krantz
+  * A book about the importance of a clear mission and vision, adaptability and resilience, confidence and determination.
+* [Outcomes Over Output: Why customer behavior is the key metric for business success](https://amzn.to/311wRhC) - Joshua Seiden
+  * Outcomes Over Output is a book that argues that customer behavior, rather than output or productivity, is the key metric for business success. It suggests that businesses should focus on understanding and measuring their customers' behaviors and experiences, and use this information to drive strategy and decision-making.
 * [The Manager’s Path: A Guide for Tech Leaders Navigating Growth and Change](https://amzn.to/3pncLHW) – Camille Fournier
+  * Provides guidance and advice for tech leaders who are managing teams and organisations through periods of growth and change.
 * [The DevOps Handbook: How to Create World-Class Agility, Reliability, and Security in Technology Organizations](https://amzn.to/3EoHVTC) – Gene Kim, Jez Humble, Patrick Debois, John Willis
 * [The Delicate Art of Bureaucracy: Digital Transformation With the Monkey, the Razor, and the Sumo Wrestler][schwartz2020] by Mark Schwartz
 * [Sooner Safer Happier: Patterns and Antipatterns for Organizational Agility: Antipatterns and Patterns for Business Agility][smart2020] by Jonathan Smart
