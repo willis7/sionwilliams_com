@@ -1,0 +1,44 @@
+version: "3"
+
+tasks:
+  default:
+    desc: "Default task"
+    cmds:
+      - task: serve
+
+  serve:
+    desc: "Serve the Hugo site locally"
+    cmds:
+      - hugo server -D
+    sources:
+      - content/**/*
+      - layouts/**/*
+      - static/**/*
+      - config.toml
+
+  preview:
+    desc: "Serve the Hugo site locally"
+    cmds:
+      - hugo server -D -F
+    sources:
+      - content/**/*
+      - layouts/**/*
+      - static/**/*
+      - config.toml
+
+  build:
+    desc: "Build the Hugo site"
+    cmds:
+      - hugo
+    sources:
+      - content/**/*
+      - layouts/**/*
+      - static/**/*
+      - config.toml
+    generates:
+      - public/**/*
+
+  clean:
+    desc: "Clean the public directory"
+    cmds:
+      - rm -rf public
