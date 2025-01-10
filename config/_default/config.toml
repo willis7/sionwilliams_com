@@ -15,10 +15,8 @@ disableSitemap = false
 disable404     = false
 disableHugoGeneratorInject = false
 
-[author]
-    name = "Sion Williams"
-
 [params]
+    author = "Sion Williams"
     copyright = "Created with ♥ by <a href='/about/'>Sion Williams</a>. All content is the property of Sion Williams. This blog, its content, and opinions are my own."
     dateform = "Jan 2, 2006"
     dateformShort = "Jan 2"
