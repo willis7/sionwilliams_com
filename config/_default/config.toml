@@ -40,8 +40,8 @@ disableHugoGeneratorInject = false
 
     # Social icons
     [[params.social]]
-        name = "twitter"
-        url  = "https://twitter.com/DarthSionno"
+        name = "x"
+        url  = "https://x.com/DarthSionno"
 
     [[params.social]]
         name = "email"
@@ -111,7 +111,13 @@ disableHugoGeneratorInject = false
         name = "Bookshelf"
         url = "/bookshelf"
         weight = 5
+    [[menu.main]]
+        identifier = "series"
+        name = "Series"
+        url = "/series"
+        weight = 6
 
 [taxonomies]
     category = "categories"
     tag = "tags"
+    series   = "series"
