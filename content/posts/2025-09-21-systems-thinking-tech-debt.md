@@ -1,8 +1,8 @@
 ---
 title: "Modelling Technical Debt with Systems Thinking: A Journey from Simple to Sophisticated"
 date: 2025-09-21T15:56:14+01:00
-draft: true
-toc: false
+draft: false
+toc: true
 images:
 tags:
   - management
