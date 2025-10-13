@@ -74,7 +74,7 @@ Ship when IDR > 1 and rising. Refactor when IDR trends down or volatility increa
 
 This is how you move fast without getting lost.
 
-How this changes roles
+## How this changes roles
 
 - Tech leads become impact architects. They own system coherence and ensure each change has a measurable hypothesis tied to business metrics.
 - Product managers become portfolio investors. They trade bets across an impact network, report ROP, and stop funding low-yield streams—even when the code "works."
@@ -91,14 +91,14 @@ Say you ship an AI customer-support chatbot.
 
 This is why instrumentation and attribution matter. And why decommissioning is a feature.
 
-Objections you'll hear—and how to answer them
+## Objections you'll hear—and how to answer them
 
 - "This will slow us down." We're trading a bit of upfront accuracy for compounding speed later. Speed without direction just creates future drag.
 - "It's not agile." We're not writing a 50-page spec. We're documenting a testable impact hypothesis and instrumenting to learn.
 - "Innovation isn't predictable." Great—then be honest about uncertainty, label bets as exploratory, and size them accordingly. Measure anyway.
 - "Our PMO handles this." Most track output, not impact. If you already have robust impact validation, fantastic—plug into it. If not, start simple.
 
-What to start on Monday
+## What to start on Monday
 
 - Add impact hypotheses to every significant change. "We expect X to move Y by Z% within T weeks."
 - Instrument for impact as part of done. Emit business events; wire dashboards when you ship.
