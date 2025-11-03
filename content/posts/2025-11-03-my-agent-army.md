@@ -1,5 +1,5 @@
 ---
-title: "My Agent Army Using the HMAC Architecture"
+title: "My Agent Army Using the HMAS Architecture"
 date: 2025-11-03T16:25:10Z
 draft: false
 toc: false
