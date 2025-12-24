@@ -7,7 +7,7 @@ theme = "hello-friend-ng"
 disqusShortname = "willis7"
 
 enableRobotsTXT = true
-enableGitInfo   = false
+enableGitInfo   = true
 enableEmoji     = true
 enableMissingTranslationPlaceholders = false
 disableRSS     = false

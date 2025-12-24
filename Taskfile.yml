@@ -14,7 +14,7 @@ tasks:
       - content/**/*
       - layouts/**/*
       - static/**/*
-      - config.toml
+      - config/**/*
 
   preview:
     desc: "Serve the Hugo site locally"
@@ -24,7 +24,7 @@ tasks:
       - content/**/*
       - layouts/**/*
       - static/**/*
-      - config.toml
+      - config/**/*
 
   build:
     desc: "Build the Hugo site"
@@ -34,7 +34,7 @@ tasks:
       - content/**/*
       - layouts/**/*
       - static/**/*
-      - config.toml
+      - config/**/*
     generates:
       - public/**/*
 
