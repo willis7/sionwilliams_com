@@ -12,12 +12,12 @@ RUN apt-get update && apt-get install -y ca-certificates openssl git curl && \
     export VERSION=$(curl -s https://api.github.com/repos/gohugoio/hugo/releases/latest | grep "tag_name" | awk '{print substr($2, 3, length($2)-4)}') ;;\
     esac && \
     echo ${VERSION} && \
-    wget -O ${VERSION}.tar.gz https://github.com/gohugoio/hugo/releases/download/v${VERSION}/${VARIANT}_${VERSION}_Linux-64bit.tar.gz && \
+    wget -O ${VERSION}.tar.gz https://github.com/gohugoio/hugo/releases/download/v${VERSION}/${VARIANT}_${VERSION}_linux-amd64.tar.gz && \
     tar xf ${VERSION}.tar.gz && \
     mv hugo* /usr/bin/hugo && \
     go get github.com/yaegashi/muslstack && \
     muslstack -s 0x800000 /usr/bin/hugo
 
-FROM mcr.microsoft.com/vscode/devcontainers/base
+FROM mcr.microsoft.com/devcontainers/base:ubuntu
 COPY --from=0 /usr/bin/hugo /usr/bin
 EXPOSE 1313
