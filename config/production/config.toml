@@ -1,5 +1,4 @@
 baseurl = "https://sionwilliams.com/"
 buildDrafts = false
 buildFuture = false
-# googleAnalytics = "UA-119190708-1" # Deprecated
-# googleAnalytics = "G-XXXXXXXXXX" # TODO: Replace with your GA4 Measurement ID
+googleAnalytics = "G-0KYGN7GLSW"

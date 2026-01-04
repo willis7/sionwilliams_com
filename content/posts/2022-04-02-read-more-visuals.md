@@ -8,4 +8,4 @@ tags:
   - reading
 ---
 
-{{< tweet user="AlexAndBooks_" id="1508448004767952896" >}}
+{{< x user="AlexAndBooks_" id="1508448004767952896" >}}

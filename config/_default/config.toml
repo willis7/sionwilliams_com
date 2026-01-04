@@ -4,7 +4,6 @@ title = "Sion Williams"
 theme = "hello-friend-ng"
 
 # 3rd Party
-disqusShortname = "willis7"
 
 enableRobotsTXT = true
 enableGitInfo   = true
@@ -38,9 +37,21 @@ disableHugoGeneratorInject = false
     defaultTheme = "dark"
     mainSections = ["posts"]
 
+    # Reading Time
+    enableReadingTime = true
+
+    # Sharing Buttons
+    enableSharingButtons = true
+
+    # Utterances Comments
+    [params.utterances]
+        repository = "willis7/sionwilliams_com"
+        issueTerm  = "comment"
+        theme      = "github-dark"
+
     # Social icons
     [[params.social]]
-        name = "x"
+        name = "X"
         url  = "https://x.com/DarthSionno"
 
     [[params.social]]
@@ -78,8 +89,10 @@ disableHugoGeneratorInject = false
         readOtherPosts = "Read other posts"
 
     [languages.en.params.logo]
-        logoText = "$ /path/to/knowledge"
+        logoText = "$ /path/to/knowledge/"
         logoHomeLink = "/"
+        logoCursorPathname = true
+        logoCursorColor = "#77ff33"
 
 [markup]
   [markup.goldmark]  
