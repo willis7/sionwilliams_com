@@ -15,15 +15,6 @@
       "VERSION": "latest"
     }
   },
-  // Set *default* container specific settings.json values on container create.
-  "settings": {
-    "terminal.integrated.shell.linux": "/bin/zsh"
-  },
-  // Add the IDs of extensions you want installed when the container is created.
-  "extensions": [
-    "bungcip.better-toml", 
-    "davidanson.vscode-markdownlint"
-  ],
   // Use 'forwardPorts' to make a list of ports inside the container available locally.
   "forwardPorts": [1313],
   // Use 'postCreateCommand' to run commands after the container is created.
@@ -35,7 +26,18 @@
   // Uncomment to connect as a non-root user. See https://aka.ms/vscode-remote/containers/non-root.
   "remoteUser": "vscode",
   "shutdownAction": "stopContainer",
-	"features": {
-		"git": "latest"
-	}
+  "features": {
+    "ghcr.io/devcontainers/features/git:1": {}
+  },
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "zsh"
+      },
+      "extensions": [
+        "bungcip.better-toml",
+        "davidanson.vscode-markdownlint"
+      ]
+    }
+  }
 }
