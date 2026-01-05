@@ -3,8 +3,9 @@ title: "Gradle Multiple Test Sourceset Coverage"
 date: 2020-10-01T13:47:40+01:00
 draft: false
 tags:
-  - gradle
-  - jacoco
+   - automation
+   - gradle
+   - howto
 ---
 
 # Problem

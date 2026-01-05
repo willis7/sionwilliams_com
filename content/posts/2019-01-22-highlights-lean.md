@@ -5,10 +5,8 @@ draft: false
 toc: false
 images:
 tags:
-  - highlights
-  - strategy
-  - lean
-  - culture
+   - leadership
+   - highlights
 ---
 
 [Lean Enterprise: How High Performance Organizations Innovate at Scale](https://amzn.to/2tkBe64)

@@ -5,12 +5,11 @@ draft: false
 toc: false
 images:
 tags:
-  - foam research
-  - roam research
-  - pocket
-  - one note
-  - zettelkasten
-  - digital garden
+   - pkm
+   - foam
+   - logseq
+   - notion
+   - pocket
 ---
 
 > Some might argue I don't have one, let alone two.

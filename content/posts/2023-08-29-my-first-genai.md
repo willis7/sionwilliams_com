@@ -5,7 +5,11 @@ draft: false
 toc: true
 images:
 tags:
-  - ai
+   - ai
+   - langchain
+   - llama
+   - faiss
+   - howto
 ---
 ## Introduction
 This blog introduces my experience writing my first generative AI app.

@@ -5,7 +5,10 @@ draft: false
 toc: false
 images:
 tags:
-  - vscode
+   - dev
+   - vscode
+   - terraform
+   - howto
 ---
 
 > A good set of extensions can make working with a particular workspace or programming language more productive and you'd often like to share this list with your team or colleagues.

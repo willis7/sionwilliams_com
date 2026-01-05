@@ -5,7 +5,11 @@ draft: false
 toc: false
 images:
 tags:
-  - vscode
+   - dev
+   - vscode
+   - hugo
+   - docker
+   - howto
 ---
 
 I've been working with Azure recently and was introduced to the [Rover](https://github.com/aztfmod/rover), a fully provisioned container for working with Azure Terraform. I hadn't appreciated Microsoft's ability to create environments using containers that VSCode can then connect to in an OS-agnostic and portable way. I mainly use my Mac as a dev machine, but I use my gaming PC to do the odd coding task every now and then. Jumping between these devices can be a bit of a pain because I have to set them up the same way. This always comes with some nuance because of the difference between the operating systems.

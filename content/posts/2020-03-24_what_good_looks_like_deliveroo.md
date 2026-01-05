@@ -5,7 +5,7 @@ draft: false
 toc: false
 images:
 tags:
-  - culture
+   - leadership
 ---
 
 I often get asked what “Good” looks like, and I find it a tough question to answer because “Good” wears many faces. However, one excellent example landed in my inbox on Monday 16th of March, only four days after the Cornavirus was announced as a pandemic.

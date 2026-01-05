@@ -5,10 +5,9 @@ draft: false
 toc: false
 images:
 tags:
-  - howto
-  - make
-  - devops
-  - vagrant
+   - infrastructure
+   - vagrant
+   - howto
 ---
 Spinning up more than one Vagrant box can be slow and tedious. Below is a solution for speeding up the `vagrant up` process when you need more than one box and Docker isn't a valid option.
 

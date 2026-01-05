@@ -5,8 +5,7 @@ draft: false
 toc: true
 images:
 tags:
-  - engineering
-  - culture
+   - dev
 ---
 
 ## Introduction

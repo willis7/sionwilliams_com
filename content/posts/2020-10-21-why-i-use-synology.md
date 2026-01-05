@@ -5,9 +5,9 @@ draft: false
 toc: false
 images:
 tags:
-  - synology
-  - nas
-  - backblaze
+   - homelab
+   - synology
+   - backblaze
 ---
 
 As a Principal DevOps Engineer, it wouldn't be unreasonable for you to expect me to have built my home server/lab/NAS. I have done precisely this in the past. I immensely enjoyed sourcing all the parts I wanted, assembling them and then provisioning it using Ansible. The goal of that machine was to keep it as low power as possible, but still serving the my needs. To be honest, back then, that was pretty much just acting as a media server, and well before the demands of 4K. However, as a parent of two, and with very little free time - I have conceded to the idea that maybe a COTS product is OK. I have reached that time in my life where I just want to plug and play.

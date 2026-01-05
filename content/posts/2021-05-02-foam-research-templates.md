@@ -5,7 +5,9 @@ draft: false
 toc: false
 images:
 tags:
-  - foam research
+   - pkm
+   - foam
+   - howto
 ---
 
 As part of my [second brain](https://sionwilliams.com/posts/2020-12-10-my-second-brain/) workflow, I like to store complete copies of the sources I read. To make this easier, I created a template. Unfortunately, the Foam documentation isn't forthcoming on how to do this, but you can find it [here](https://github.com/foambubble/foam/blob/b1bdf766b17212964f4b8400db72d6e5dcafe6d4/docs/features/note-templates.md).

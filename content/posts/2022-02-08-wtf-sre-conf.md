@@ -5,7 +5,7 @@ draft: false
 toc: false
 images:
 tags:
-  - sre
+   - platform
 ---
 
     WTF is SRE? is the free, full-day conference designed

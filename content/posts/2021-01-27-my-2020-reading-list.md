@@ -5,7 +5,8 @@ draft: false
 toc: false
 images:
 tags:
-  - untagged
+   - leadership
+   - highlights
 ---
 
 Here are the books I read last year. I don't do audiobooks when comprehension is the goal, so you won't find a list of 40+ books here. This is my ordered list going from recommended, to pass. The Vision Driven Leader was excellent, and a recommended read for anyone in a leadership role. While I wanted Project to Product to wow me, it didn't. Just as you reach the end when you think Mik will reveal the magic formula, you quickly realise this book was an elaborate sales pitch leading you to his company and products.

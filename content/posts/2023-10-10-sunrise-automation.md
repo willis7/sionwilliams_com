@@ -5,7 +5,8 @@ draft: false
 toc: false
 images:
 tags:
-  - homeassistant
+   - homelab
+   - howto
 ---
 
 Today, I'd like to share my unique interaction with ChatGPT, OpenAI's state-of-the-art language model. I was trying to create a wake-up light automation in Home Assistant, and ChatGPT came to the rescue!

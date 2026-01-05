@@ -5,10 +5,9 @@ draft: false
 toc: true
 images:
 tags:
-  - devops
-  - sonarqube
-  - troubleshooting
-  - howto
+   - automation
+   - sonar
+   - howto
 ---
 
 ## Issue

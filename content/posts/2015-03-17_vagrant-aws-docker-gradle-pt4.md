@@ -5,16 +5,12 @@ draft: false
 toc: true
 images:
 tags:
-  - howto
-  - vagrant
-  - devops
-  - microservice
-  - gradle
-  - vagrant
-  - aws
-  - ec2
-  - docker
-  - ansible
+   - infrastructure
+   - vagrant
+   - aws
+   - docker
+   - gradle
+   - howto
 ---
 
 ## The Microservice

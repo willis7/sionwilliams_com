@@ -5,9 +5,8 @@ draft: false
 toc: true
 images:
 tags:
-  - devops
-  - culture
-  - leadership
+   - platform
+   - leadership
 ---
 
 > This article was first published on my clients company blog. I have renamed the projects for anonymity, and the engineer names are made up. However, the story is very real!

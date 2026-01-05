@@ -5,10 +5,8 @@ draft: false
 toc: false
 images:
 tags:
-  - 3dprinting
-  - arduino
-  - creality
-  - ender 5
+   - homelab
+   - howto
 ---
 
 So, I have to admit, I've been somewhat frustrated with my printer recently. If you have read any of my blogs, you will know that I've added a few upgrades from glass beds to silent boards. I've also printed upgrades like bed strain arms, power cable reliefs etc. However, it felt like no matter what I did, I could not get the first layer to adhere to the bed. I did notice that when prints failed they always did so on the right. In entirety, I think I have wasted about 25% of my current filament roll to a lack of adhesion.

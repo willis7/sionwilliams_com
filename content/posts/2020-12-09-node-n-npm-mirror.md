@@ -3,8 +3,9 @@ title: "Artifactory: Node & Npm Mirror"
 date: 2020-12-09T14:09:16Z
 draft: false
 tags:
-  - artifactory
-  - nodejs
+   - automation
+   - node
+   - howto
 ---
 
 If like myself you work in a corporate environment and you have policies which restrict you from downloading directly from the internet then you will need a proxy or mirror which can fetch the dependencies you need while keeping track of what you pull in. At my current company, we use Artifactory. This is a guide on how you can mirror Node and NPM repositories, for better control over what you pull into your company.

@@ -5,13 +5,11 @@ draft: false
 toc: true
 images:
 tags:
-  - engineering
-  - devops
-  - data science
-  - python
-  - ci
-  - jupyter
-  - howto
+   - automation
+   - python
+   - conda
+   - docker
+   - howto
 ---
 
 

@@ -5,10 +5,10 @@ draft: false
 toc: true
 images:
 tags:
-  - 3dprinting
-  - arduino
-  - creality
-  - ender 5
+   - homelab
+   - marlin
+   - bltouch
+   - howto
 ---
 ## tl;dr
 I discuss how I installed a glass bed, silent board (v.1.1.5) and BLTouch. This is mostly a record of the resources I found useful at the time of the project.

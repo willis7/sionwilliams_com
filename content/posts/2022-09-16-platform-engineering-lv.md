@@ -5,8 +5,7 @@ draft: false
 toc: true
 images:
 tags:
-  - platform engineering
-  - devops
+   - platform
 ---
 
 When I rejoined LV in 2108, LV was still an [ITIL](https://en.wikipedia.org/wiki/ITIL)-heavy organisation. As with most large companies, we had a team of build managers who worked with the various delivery teams to set up things like build automation, build scripting, and release packaging.

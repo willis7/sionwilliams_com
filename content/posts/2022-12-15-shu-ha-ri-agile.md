@@ -5,7 +5,7 @@ draft: false
 toc: false
 images:
 tags:
-  - agile
+   - leadership
 ---
 
 ## tl;DR

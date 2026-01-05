@@ -5,10 +5,8 @@ draft: false
 toc: false
 images:
 tags:
-  - highlights
-  - devops
-  - peopleware
-  - culture
+   - leadership
+   - highlights
 ---
 [Leading the Transformation: Applying Agile and DevOps Principles at Scale](https://amzn.to/2Qgl0E9)
 By Gary Gruver, Tommy Mouser, and Gene Kim

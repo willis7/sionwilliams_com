@@ -5,8 +5,10 @@ draft: false
 toc: false
 images:
 tags:
-  - git
-  - jira
+   - dev
+   - git
+   - jira
+   - howto
 ---
 
 This is is the subject of many holy software wars. Hopefully I will convince you there's only 1 right answer.

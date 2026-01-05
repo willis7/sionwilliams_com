@@ -5,9 +5,7 @@ draft: false
 toc: false
 images:
 tags:
-  - security
-  - audit
-  - devops
+   - dev
 ---
 
     “How does DevOps ideally interact with information security and compliance?”

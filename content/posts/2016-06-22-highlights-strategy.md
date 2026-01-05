@@ -5,8 +5,8 @@ draft: false
 toc: false
 images:
 tags:
-  - highlights
-  - strategy
+   - leadership
+   - highlights
 ---
 
 [Good Strategy/Bad Strategy: The difference and why it matters](https://amzn.to/39vIRav)

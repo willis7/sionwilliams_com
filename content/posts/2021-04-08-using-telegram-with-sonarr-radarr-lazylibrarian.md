@@ -5,10 +5,9 @@ draft: false
 toc: true
 images:
 tags:
-  - sonarr
-  - radarr
-  - lazylibrarian
-  - telegram
+   - homelab
+   - telegram
+   - howto
 ---
 
 # Problem

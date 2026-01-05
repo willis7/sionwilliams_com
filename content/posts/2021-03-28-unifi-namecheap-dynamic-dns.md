@@ -3,7 +3,10 @@ title: "Unifi, Namecheap and Dynamic Dns"
 date: 2021-03-28T20:26:54+01:00
 draft: false
 tags:
-  - unifi
+   - homelab
+   - unifi
+   - namecheap
+   - howto
 ---
 
 ## I. SETUP on NAMECHEAP WEBSITE:

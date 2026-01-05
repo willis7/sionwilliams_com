@@ -5,9 +5,8 @@ draft: false
 toc: false
 images:
 tags:
-  - ai
-  - architecture
-  - impact intelligence
+   - ai
+   - platform
 ---
 
 The next wave of great products won't be won by who ships the most elegant code. What will matter is who gives machines the right boundaries, who encodes intent into systems, and who can prove that shipped features move the numbers that matter.

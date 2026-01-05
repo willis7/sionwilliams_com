@@ -3,6 +3,8 @@ title: "Leadership: Failure Is Not an Option"
 date: 2022-12-28T11:23:10Z
 draft: false
 toc: true
+tags:
+   - leadership
 ---
 ## Introduction
 I recently finished reading [Gene Krantz's book "Failure Is Not an Option"](https://amzn.to/3PUTqJL) and was struck by its impact on my thinking and approach to leadership. [Krantz](https://en.wikipedia.org/wiki/Gene_Kranz), the flight director for NASA's Apollo program, is known for his iconic phrase, "failure is not an option." But as I learned from Krantz's story and philosophies, this phrase is more than just a catchy slogan – it's an essential aspect of effective leadership. In this blog post, I'll explore how "failure is not an option" encompasses a clear mission and vision, adaptability and resilience, confidence and determination, and how incorporating these qualities can improve your leadership skills.

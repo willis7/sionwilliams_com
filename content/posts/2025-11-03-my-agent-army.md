@@ -5,7 +5,8 @@ draft: false
 toc: false
 images:
 tags:
-  - ai
+   - ai
+   - howto
 ---
 
 I’ve been diving head-first into the world of AI-driven development lately, specifically playing around with [OpenCode](httpss://opencode.ai/docs/agents/) and its agent framework. Like many, my first attempts were with a single, monolithic agent. You ask it to do something, and it... well, it _tries_ to do everything. It plans, it codes, it researches, all in one massive, chaotic context window.

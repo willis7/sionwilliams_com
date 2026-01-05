@@ -2,7 +2,7 @@
 banner = "banners/placeholder.png"
 categories = ["devops"]
 date = "2018-08-21T00:01:00+01:00"
-tags = ["jenkins", "ci", "cd", "awesome"]
+tags = ["automation", "jenkins"]
 title = "Awesome Jenkins Pipelines"
 +++
 

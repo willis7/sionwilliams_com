@@ -5,9 +5,10 @@ draft: false
 toc: false
 images:
 tags:
-  - synology
-  - nas
-  - backblaze
+   - homelab
+   - synology
+   - backblaze
+   - howto
 ---
 
 {{< figure src="/img/synology_1019plus.jpeg" caption="Synology DS1019+" width="50%" height="50%">}}

@@ -5,9 +5,8 @@ draft: false
 toc: false
 images:
 tags:
-  - highlights
-  - devops
-  - sre
+   - leadership
+   - highlights
 ---
 
 [The Art of Monitoring](https://amzn.to/35i4fN9)

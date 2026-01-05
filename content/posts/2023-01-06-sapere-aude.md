@@ -5,8 +5,7 @@ draft: false
 toc: true
 images:
 tags:
-  - principles
-  - culture
+   - leadership
 ---
 
 {{< figure src="/img/avery-evans-NOm4f0xx2bU-unsplash.jpg">}}

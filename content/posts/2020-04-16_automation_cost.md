@@ -5,7 +5,7 @@ draft: false
 toc: false
 images:
 tags:
-  - devops
+   - automation
 ---
 
 Whenever I approach an automation task, I always ask myself is it worth it. Unfortunately, I can't recall the origin, but the chart below has always been key to my decision making.

@@ -5,7 +5,8 @@ draft: false
 toc: false
 images:
 tags:
-  - kindle
+   - pkm
+   - howto
 ---
 
 

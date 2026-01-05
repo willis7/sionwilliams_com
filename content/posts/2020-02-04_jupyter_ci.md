@@ -5,10 +5,10 @@ draft: false
 toc: true
 images:
 tags:
-  - python
-  - ci
-  - engineering
-  - data science
+   - automation
+   - python
+   - conda
+   - howto
 ---
 
 > I first wrote this blog when I was working at City Science

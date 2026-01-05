@@ -5,9 +5,7 @@ draft: false
 toc: false
 images:
 tags:
-  - principles
-  - architecture
-  - design
+   - platform
 ---
 
 > If a system is to serve the creative spirit, it must be entirely comprehensible to a single individual

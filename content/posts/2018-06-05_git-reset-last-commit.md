@@ -3,7 +3,7 @@ banner = "banners/placeholder.png"
 categories = ["devops"]
 date = "2018-06-05T00:01:13+01:00"
 menu = ""
-tags = ["git"]
+tags = ["dev", "git", "howto"]
 title = "Git reset last commit"
 +++
 

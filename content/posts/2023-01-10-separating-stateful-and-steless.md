@@ -5,8 +5,10 @@ draft: false
 toc: false
 images:
 tags:
-  - cdk
-  - policy as code
+   - infrastructure
+   - opa
+   - cdk
+   - howto
 ---
 
 [A blog of the same title](https://theburningmonk.com/2023/01/this-is-why-you-should-keep-stateful-and-stateless-resources-together/) from another author was recently shared in my company Slack, and I was about to write a reply, but I thought it would help if I wrote my response in long form.

@@ -3,6 +3,8 @@ title: "My Happy Place 2020"
 date: 2021-01-01T19:35:59Z
 draft: false
 toc: true
+tags:
+   - homelab
 ---
 This title is very misleading because like everyone else I was stuck in my house for most of 2020. However, I thought it might be fun to list all the things that made lockdown a little more bearable for me. The list below was inspired by the lists created on Cool Tools, and the images below are all links to where you can buy the same items.
 

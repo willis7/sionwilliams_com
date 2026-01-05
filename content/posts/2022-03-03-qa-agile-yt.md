@@ -5,9 +5,7 @@ draft: false
 toc: false
 images:
 tags:
-  - testing
-  - qa
-  - agile
+   - automation
 ---
 
 {{< youtube XhFVtuNDAoM >}}

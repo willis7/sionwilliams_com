@@ -5,12 +5,13 @@ draft: false
 toc: true
 images:
 tags:
-  - foam research
-  - roam research
-  - pocket
-  - one note
-  - zettelkasten
-  - digital garden
+   - pkm
+   - logseq
+   - foam
+   - goodnotes
+   - raindrop
+   - todoist
+   - notion
 ---
 
 ## Introduction

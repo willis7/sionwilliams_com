@@ -5,9 +5,7 @@ draft: false
 toc: false
 images:
 tags:
-  - devops
-  - peopleware
-  - culture
+   - dev
 ---
 
 While working with a new client who had some green developers, it struck me that they only knew about 20% (totally arbitrary for this example) of the features of the tool they were using daily. For example, when asking them if they preferred merge vs rebase, I was often met with blank stares. Similarly, when using their editor, I would often find them manually searching and replacing renamed variables, rather than using the built-in feature of the editor.

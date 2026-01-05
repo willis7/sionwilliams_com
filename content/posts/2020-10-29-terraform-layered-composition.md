@@ -5,7 +5,9 @@ draft: false
 toc: false
 images:
 tags:
-  - terraform
+   - infrastructure
+   - terraform
+   - howto
 ---
 
 I discovered a new trick with Terraform, which helps us better structure our infrastructure as code. As the title suggests, it's called layered composition. I'm a big advocate of the [innersource](https://innersourcecommons.org/) movement, and I think it's a good idea to have most things visible. However, there are some things people just don't need to worry about. Take, for example, how subscriptions are created within an Azure account. For the most part, as a DevOps engineer, that's a detail I don't need to know. My concern is that I have a subscription, It has the service principals I need and the Azure team are monitoring it. To go a layer deeper, let's explore development environments. Developers should understand their runtime environment and how it's structured. Still, they needn't concern themselves with the minutiae like what size nodes are assigned to their environment.

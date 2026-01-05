@@ -3,7 +3,7 @@ banner = "banners/placeholder.png"
 categories = ["other"]
 date = "2018-05-03T20:46:13+01:00"
 menu = ""
-tags = ["jira"]
+tags = ["dev", "jira", "howto"]
 title = "Making Ticketing Systems Useful"
 +++
 

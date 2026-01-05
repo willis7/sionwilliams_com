@@ -5,7 +5,9 @@ draft: false
 toc: true
 images:
 tags:
-  - backstage
+   - platform
+   - backstage
+   - jenkins
 ---
 
 Any engineer who has started a new project will know how time-consuming bootstrapping a new repo can be. You have to configure your build scripts, configure your test tool, add your pipeline scripts and so on. Most of the time, we get into a build fix cycle because the most obvious thing to do is copy and paste from another similar repository. When we first build the project, it inevitably fails because we forget to change a copied variable from the old project. We make the fix and build again.

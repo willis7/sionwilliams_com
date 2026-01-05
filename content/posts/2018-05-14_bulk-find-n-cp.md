@@ -3,7 +3,7 @@ banner = "banners/placeholder.png"
 categories = ["devops"]
 date = "2018-05-14T20:46:13+01:00"
 menu = ""
-tags = ["bash"]
+tags = ["dev", "howto"]
 title = "Bulk find and copy in Bash"
 +++
 

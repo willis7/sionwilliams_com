@@ -5,10 +5,11 @@ draft: false
 toc: false
 images:
 tags:
-  - unifi
-  - raspberry-pi
-  - pi-hole
-  - dnsmasq
+   - homelab
+   - pi-hole
+   - dnsmasq
+   - unifi
+   - howto
 ---
 
 After an evening of tinkering with pi-hole I woke up to the following warning in pi-hole. This manifested with non-main networks, such as IoT, Camera, and Guest failing to connect to the internet.

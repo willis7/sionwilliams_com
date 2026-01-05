@@ -3,6 +3,8 @@ title: "Agile without Engineering Practices"
 date: 2021-01-08T00:35:59Z
 draft: false
 toc: false
+tags:
+   - dev
 ---
 
 When companies adopt Agile, the debate always ends up being one of Kanban or Scrum. There's one big problem in that for me; they're both variations of workflow management (or project management), and neither offers any guidance on the engineering principles we should adopt. Extreme Programming did a little better because it was explicit about engineering practices. XP suggests teams should sit together, testing is at its core (TDD), as is pair-programming, along with continuous integration and many other capabilities. I echo many of these capabilities in the DevOps capability map.

@@ -4,10 +4,9 @@ date: 2020-04-22T11:33:54+01:00
 draft: false
 toc: true
 tags:
-  - 3dprinting
-  - arduino
-  - creality
-  - ender 5
+   - homelab
+   - marlin
+   - howto
 ---
 {{< figure src="/img/marlin-250.png">}}
 
