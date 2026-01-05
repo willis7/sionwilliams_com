@@ -1,0 +1,30 @@
+{{ define "main" }}
+    <div class="content">
+        <main class="posts">
+            <h1>{{ .Title }}</h1>
+            
+            {{ if .Content }}
+                <div class="content">{{ .Content }}</div>
+            {{ end }}
+
+            <div class="posts-group">
+                <ul class="posts-list">
+                    {{ range .Paginator.Pages }}
+                        {{ $recentPost := .Pages.ByDate.Reverse | first 1 }}
+                        {{ $postCount := len .Pages }}
+                        <li class="post-item">
+                            <a href="{{ .Page.Permalink }}" class="post-item-inner">
+                                <span class="post-title">{{ .Page.Title }}</span>
+                                <span class="post-day">
+                                    {{ if eq $postCount 1 }}1 post{{ else }}{{ $postCount }} posts{{ end }}
+                                </span>
+                            </a>
+                        </li>
+                    {{ end }}
+                </ul>
+            </div>
+            
+            {{ partial "pagination-list.html" . }}
+        </main>
+    </div>
+{{ end }}
