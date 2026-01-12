@@ -8,6 +8,18 @@ banner = "images/banners/placeholder.png"
 
 <div class="bookshelf-grid">
 
+{{< book title="The AI-Driven Leader: Harnessing AI to Make Faster, Smarter Decisions" image="https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1720205510i/216125077.jpg" author="Geoff Woods" link="https://amzn.to/4qJH34o" >}}
+A practical guide for business leaders seeking to break free from operational overwhelm and leverage AI for strategic advantage. This book teaches you how to collapse decision-making timelines, transform your leadership approach with AI as a strategic thought partner, and amplify your team's impact. Packed with real-world examples and actionable prompts, it provides clear guidance on where to begin implementing AI for immediate business results and competitive advantage.
+{{< /book >}}
+
+{{< book title="Architecture for Flow: Adaptive Systems with Domain-Driven Design, Wardley Mapping, and Team Topologies" image="https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1756814458i/239941967.jpg" author="Susanne Kaiser" link="https://amzn.to/49gtRya" >}}
+The book emphasizes treating organisations as integrated socio-technical systems where social and technical aspects must be designed together. It introduces the "Architecture for Flow Canvas," a practical tool for designing systems that evolve continuously while delivering sustainable value.
+{{< /book >}}
+
+{{< book title="Become a Great Engineering Leader: Build Effective Skills to Lead and Grow" image="https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1721749353i/215946837.jpg" author="Dr James Stanier" link="https://amzn.to/4aWwvdB" >}}
+Master the art of senior engineering leadership with this hands-on guide designed for directors, VPs, and CTOs who need to make an immediate impact. Learn the essential skills for managing managers, executing strategy, and building high-performing organizations that deliver quality products at scale.
+{{< /book >}}
+
 {{< book title="The Subtle Art of Not Giving a F*ck: A Counterintuitive Approach to Living a Good Life" image="https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1465761302i/28257707.jpg" author="Mark Manson" link="https://amzn.to/3WVKG8j" >}}
 This book discusses the importance of setting priorities and focusing on what is truly important in life. It argues that many people are overwhelmed and stressed out because they try to care about too many things, and that they would be better off if they focused on a smaller number of things that truly matter.
 {{< /book >}}
