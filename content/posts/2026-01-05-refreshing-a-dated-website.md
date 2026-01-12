@@ -131,7 +131,7 @@ export const projectType = defineType({
 
 An example of the projects page can be seen below:
 
-{{< figure src="/img/atwbuild-projects-clipping.png">}}
+{{< figure src="/img/atwbuild-projects-clipping.png" alt="ATW Build Projects Page" >}}
 
 ## Deploying to Netlify
 
