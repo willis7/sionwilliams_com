@@ -1,0 +1,20 @@
+<div class="book-card">
+    <div class="book-cover">
+        {{ if .Get "image" }}
+        <img src='{{ .Get "image" | safeURL }}' alt='{{ .Get "title" }} cover'>
+        {{ else }}
+        <div class="book-cover-placeholder">
+            <span>{{ .Get "title" }}</span>
+        </div>
+        {{ end }}
+    </div>
+    <div class="book-info">
+        <h3 class="book-title">
+            <a href='{{ .Get "link" | safeURL }}' target="_blank" rel="noopener">{{ .Get "title" }}</a>
+        </h3>
+        <p class="book-author">by {{ .Get "author" }}</p>
+        <div class="book-description">
+            {{ .Inner | markdownify }}
+        </div>
+    </div>
+</div>
