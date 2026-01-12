@@ -6,23 +6,27 @@ aliases = ["about-us","about-hugo","contact"]
   name = "Sion Williams"
 +++
 
-{{< figure src="/img/sion_williams.jpeg"height="50%" width="50%" position="center" style="border-radius: 8px;" >}}
+{{< figure src="/img/sion_williams.jpeg"height="50%" width="50%" position="center" style="border-radius: 8px;" alt="Picture of Sion wielding a knife in a humorous way">}}
 
 ## Bio
 
-Hi, I’m Sion (pronounced the same as Sean), and I’ve been immersed in the world of software engineering for over 20 years, even before formal education honed my skills. My career has been defined by a passion for solving complex challenges and driving meaningful change in organizations through innovative technology solutions.
+Hi, I’m Sion (pronounced the same as Sean/Shaun), and I’ve been immersed in the world of software engineering for over 20 years, even before formal education honed my skills. My career has been defined by a passion for solving complex challenges and driving meaningful change in organisations through innovative technology solutions.
+
+I am originally from Newport, Wales, but I now live in Exeter, Devon with my wife and two children.
 
 ### Current Role
 
-I’m currently an Engineering Director at ManyPets insurance, where I lead the Subscription Product area along with our Platform and Enablement teams. My role is focused on enabling the company’s sustainable growth as we transition from a startup to a scaleup. This involves:
+After 3 great years at ManyPets, the itch to try something new and different has bitten, I am now seeking a new challenge. I am currently on the job market and available for new opportunities.
+
+### Previous Experience
+
+I was formerly an Engineering Director at ManyPets insurance, where I led the Subscription Product area along with our Platform and Enablement teams. My role was focused on enabling the company’s sustainable growth as we transitioned from a startup to a scaleup. This involved:
 
 - Identifying inefficiencies in processes and implementing innovative solutions.
 - Leading the modernization of our data platform to deliver near real-time insights.
 - Establishing an MLOps platform to support our AI strategy and enhance decision-making capabilities.
 
-By addressing these challenges, I’ve been able to contribute to ManyPets’ mission of becoming a tech-forward, customer-centric insurance provider.
-
-### Previous Experience
+By addressing these challenges, I was able to contribute to ManyPets’ mission of becoming a tech-forward, customer-centric insurance provider.
 
 Before joining ManyPets, I was the Head of Engineering at Liverpool Victoria (LV=), the UK’s largest insurance company. In this role, I tackled significant challenges:
 
@@ -34,17 +38,17 @@ Before this, I served as Head of Platform Engineering, where I was responsible f
 
 ### Earlier Career
 
-My earlier career involved numerous contracting and consulting roles, where I helped organizations mature their development and software delivery practices. Highlights include:
+My earlier career involved numerous contracting and consulting roles, where I helped organisations mature their development and software delivery practices. Highlights include:
 
 - Consulting for one of the world’s largest banks to enhance their software engineering capabilities.
 
-Providing strategic guidance to organizations transitioning to modern development practices and infrastructures.
+Providing strategic guidance to organisations transitioning to modern development practices and infrastructures.
 
 ### Personal Approach
 
-Throughout my career, I’ve maintained a focus on delivering value by fostering collaboration, driving innovation, and continuously seeking ways to improve. Whether it’s through modernizing platforms, streamlining processes, or mentoring teams, I’m committed to creating lasting, positive impacts in the organizations I work with.
+Throughout my career, I’ve maintained a focus on delivering value by fostering collaboration, driving innovation, and continuously seeking ways to improve. Whether it’s through modernizing platforms, streamlining processes, or mentoring teams, I’m committed to creating lasting, positive impacts in the organisations I work with.
 
-## Clients
+## Past Employers
 
 |                                                                           |                                           |
 | ------------------------------------------------------------------------- | ----------------------------------------- |
