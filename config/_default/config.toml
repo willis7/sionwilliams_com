@@ -47,7 +47,7 @@ disableHugoGeneratorInject = false
     # Utterances Comments
     [params.utterances]
         repository = "willis7/sionwilliams_com"
-        issueTerm  = "comment"
+        issueTerm  = "pathname"
         theme      = "github-dark"
 
     # Social icons
