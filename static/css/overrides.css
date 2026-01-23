@@ -1,0 +1,36 @@
+/* Custom Overrides */
+
+/* Style inline code blocks (wrapped in backticks) */
+code:not(pre code) {
+    color: hsl(100, 100%, 60%);
+}
+
+/* Ensure readability in light mode */
+[data-theme=light] code:not(pre code) {
+    color: #2b8a00;
+    /* Darker green for light mode contrast */
+}
+
+/* Post Links */
+.post-content a {
+    color: #3eb0ef;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
+    transition: color 0.2s ease;
+}
+
+.post-content a:hover {
+    color: #55c3ff;
+    text-decoration-thickness: 2px;
+}
+
+/* Light mode adjustments */
+[data-theme=light] .post-content a {
+    color: #0077b5;
+    /* Slightly darker blue for readability */
+}
+
+[data-theme=light] .post-content a:hover {
+    color: #005a8a;
+}
