@@ -10,15 +10,29 @@
             <div class="posts-group">
                 <ul class="posts-list">
                     {{ range .Paginator.Pages }}
-                        {{ $recentPost := .Pages.ByDate.Reverse | first 1 }}
-                        {{ $postCount := len .Pages }}
                         <li class="post-item">
-                            <a href="{{ .Page.Permalink }}" class="post-item-inner">
-                                <span class="post-title">{{ .Page.Title }}</span>
-                                <span class="post-day">
-                                    {{ if eq $postCount 1 }}1 post{{ else }}{{ $postCount }} posts{{ end }}
-                                </span>
-                            </a>
+                            {{ if eq $.Kind "term" }}
+                                {{/* Viewing a specific tag - show posts with dates */}}
+                                <a href="{{ .Permalink }}" class="post-item-inner">
+                                    <span class="post-title">{{ .Title }}</span>
+                                    <span class="post-day">
+                                        {{ if .Site.Params.dateform }}
+                                            {{ time.Format .Site.Params.dateform .Date }}
+                                        {{ else }}
+                                            {{ time.Format "Jan 2, 2006" .Date }}
+                                        {{ end }}
+                                    </span>
+                                </a>
+                            {{ else }}
+                                {{/* Listing all tags - show tag with post count */}}
+                                {{ $postCount := len .Pages }}
+                                <a href="{{ .Page.Permalink }}" class="post-item-inner">
+                                    <span class="post-title">{{ .Page.Title }}</span>
+                                    <span class="post-day">
+                                        {{ if eq $postCount 1 }}1 post{{ else }}{{ $postCount }} posts{{ end }}
+                                    </span>
+                                </a>
+                            {{ end }}
                         </li>
                     {{ end }}
                 </ul>
