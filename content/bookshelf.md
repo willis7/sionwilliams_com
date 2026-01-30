@@ -4,12 +4,14 @@ date = "2020-01-03T00:01:13+01:00"
 banner = "images/banners/placeholder.png"
 +++
 
-> Full disclosure; the links below are to my Amazon Associates account, and so I would get a little financial kickback if you decided to purchase.
-
 <div class="bookshelf-grid">
 
+{{< book title="Engineering Management for the Rest of Us" image="https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1667289282i/58502800.jpg" author="Sarah Drasner" link="https://amzn.to/4a04hMU" >}}
+A very people focussed Engineering Management book that will be a great resource for those who are just starting Engineering Management. Personally, I found that while it covers a lot of the fundamentals, it doesn't go into enough depth to be a complete guide to Engineering Management.
+{{< /book >}}
+
 {{< book title="The AI-Driven Leader: Harnessing AI to Make Faster, Smarter Decisions" image="https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1720205510i/216125077.jpg" author="Geoff Woods" link="https://amzn.to/4qJH34o" >}}
-A practical guide for business leaders seeking to break free from operational overwhelm and leverage AI for strategic advantage. This book teaches you how to collapse decision-making timelines, transform your leadership approach with AI as a strategic thought partner, and amplify your team's impact. Packed with real-world examples and actionable prompts, it provides clear guidance on where to begin implementing AI for immediate business results and competitive advantage.
+If you were an early adopter of AI, then this book likely has little to offer you beyond the prompts at the back of the book. That said, it is a great resource for those who are just starting to explore AI in the workplace or have not considered AI beyond coding.
 {{< /book >}}
 
 {{< book title="Architecture for Flow: Adaptive Systems with Domain-Driven Design, Wardley Mapping, and Team Topologies" image="https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1756814458i/239941967.jpg" author="Susanne Kaiser" link="https://amzn.to/49gtRya" >}}
@@ -20,8 +22,16 @@ The book emphasizes treating organisations as integrated socio-technical systems
 Master the art of senior engineering leadership with this hands-on guide designed for directors, VPs, and CTOs who need to make an immediate impact. Learn the essential skills for managing managers, executing strategy, and building high-performing organizations that deliver quality products at scale.
 {{< /book >}}
 
+{{< book title="Creating Software with Modern Diagramming Techniques" image="https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1672160881i/75349012.jpg" author="Ashley Peacock" link="https://amzn.to/3ZEcwcH" >}}
+Any book that focusses on a tool or technology rarely ages well. This book feels more relevant in the age of AI, due to the fact the solution is text based and can easily be parsed by AI.
+{{< /book >}}
+
 {{< book title="The Subtle Art of Not Giving a F*ck: A Counterintuitive Approach to Living a Good Life" image="https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1465761302i/28257707.jpg" author="Mark Manson" link="https://amzn.to/3WVKG8j" >}}
 This book discusses the importance of setting priorities and focusing on what is truly important in life. It argues that many people are overwhelmed and stressed out because they try to care about too many things, and that they would be better off if they focused on a smaller number of things that truly matter.
+{{< /book >}}
+
+{{< book title="Engineering DevOps: From Chaos to Continuous Improvement ... and Beyond" author="Marc Hornbeek" link="https://amzn.to/3ZaKLIF" image="https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1573049881i/48719477.jpg">}}
+The blueprints in this book are excellent and are as relevant today as they were when the book was written. If you are still struggling with a DevOps transition, this book is a must-read.
 {{< /book >}}
 
 {{< book title="Failure is not an option" author="Gene Krantz" link="https://amzn.to/3PUTqJL" image="https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1442273536i/141499.jpg">}}
@@ -30,6 +40,14 @@ Success isn’t guaranteed by resources, but by the relentless alignment of miss
 
 {{< book title="Outcomes Over Output: Why customer behavior is the key metric for business success" author="Joshua Seiden" link="https://amzn.to/49haipp" image="https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1555845154i/45186993.jpg">}}
 Outcomes Over Output is a book that argues that customer behavior, rather than output or productivity, is the key metric for business success. It suggests that businesses should focus on understanding and measuring their customers' behaviors and experiences, and use this information to drive strategy and decision-making.
+{{< /book >}}
+
+{{< book title="Jobs to be Done: Theory to Practice" author="Anthony W. Ulwick" link="https://amzn.to/46f2H8P" image="https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1477818616i/32809558.jpg">}}
+This book gave me a framework to think differently about customer needs and how to address them. It has creeped into all areas of Engineering Management and Product Development, even area's as subtle as writing user stories.
+{{< /book >}}
+
+{{< book title="An Elegant Puzzle: Systems of Engineering Management" author="Will Larson" link="https://amzn.to/3Z8uyDO" image="https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1556221385i/45303387.jpg">}}
+This is one of the most influencial books of my Engineering Management journey. It provides a framework for understanding and managing the complex systems that underpin modern engineering organisations.
 {{< /book >}}
 
 {{< book title="The Manager’s Path: A Guide for Tech Leaders Navigating Growth and Change" author="Camille Fournier" link="https://amzn.to/4buIVJT" image="https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1484107737i/33369254.jpg">}}
@@ -109,3 +127,5 @@ The book is based on the experiences of the SRE team at Google, and provides ins
 {{< /book >}}
 
 </div>
+
+> Full disclosure; the links above are to my Amazon Associates account, and so I would get a little financial kickback if you decided to purchase.
