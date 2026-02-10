@@ -1,0 +1,15 @@
+{{ if .Get "src" }}
+<div class="lightbox-wrapper">
+    <figure class="lightbox-trigger" data-lightbox="{{ .Get "src" }}" data-alt="{{ .Get "alt" | default "" }}" data-caption="{{ .Get "caption" | default "" }}">
+        <img src="{{ .Get "src" | safeURL }}" 
+             alt="{{ .Get "alt" | default "" | plainify }}" 
+             {{ with .Get "width" }}width="{{ . }}"{{ end }}
+             {{ with .Get "height" }}height="{{ . }}"{{ end }}
+             loading="lazy"
+             class="lightbox-image">
+        {{ with .Get "caption" }}
+        <figcaption>{{ . | markdownify }}</figcaption>
+        {{ end }}
+    </figure>
+</div>
+{{ end }}

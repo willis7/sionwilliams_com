@@ -34,3 +34,100 @@ code:not(pre code) {
 [data-theme=light] .post-content a:hover {
     color: #005a8a;
 }
+
+/* Lightbox Styles */
+.lightbox-wrapper {
+    margin: 1rem 0;
+}
+
+.lightbox-trigger {
+    margin: 0;
+    cursor: zoom-in;
+    display: inline-block;
+}
+
+.lightbox-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    transition: opacity 0.2s ease;
+}
+
+.lightbox-trigger:hover .lightbox-image {
+    opacity: 0.9;
+}
+
+.lightbox-trigger figcaption {
+    text-align: center;
+    font-size: 0.9rem;
+    color: var(--text-color, #ccc);
+    margin-top: 0.5rem;
+}
+
+/* Lightbox Overlay */
+.lightbox-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 10000;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.lightbox-overlay.active {
+    display: flex;
+    opacity: 1;
+}
+
+.lightbox-content {
+    position: relative;
+    max-width: 90%;
+    max-height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lightbox-content img {
+    max-width: 100%;
+    max-height: 85vh;
+    object-fit: contain;
+    border-radius: 4px;
+}
+
+.lightbox-caption {
+    color: #fff;
+    margin-top: 1rem;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.lightbox-close {
+    position: absolute;
+    top: -40px;
+    right: 0;
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 2rem;
+    cursor: pointer;
+    padding: 0.5rem;
+    line-height: 1;
+    opacity: 0.8;
+    transition: opacity 0.2s ease;
+}
+
+.lightbox-close:hover {
+    opacity: 1;
+}
+
+/* Prevent body scroll when lightbox is open */
+body.lightbox-open {
+    overflow: hidden;
+}
