@@ -60,4 +60,6 @@ Temporary Items
 
 .task/
 
+.claude/settings.local.json
+
 # End of https://www.toptal.com/developers/gitignore/api/macos

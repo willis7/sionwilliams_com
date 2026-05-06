@@ -10,21 +10,11 @@ tasks:
     desc: "Serve the Hugo site locally"
     cmds:
       - hugo server -D
-    sources:
-      - content/**/*
-      - layouts/**/*
-      - static/**/*
-      - config/**/*
 
   preview:
-    desc: "Serve the Hugo site locally"
+    desc: "Serve the Hugo site locally (including future posts)"
     cmds:
       - hugo server -D -F
-    sources:
-      - content/**/*
-      - layouts/**/*
-      - static/**/*
-      - config/**/*
 
   build:
     desc: "Build the Hugo site"

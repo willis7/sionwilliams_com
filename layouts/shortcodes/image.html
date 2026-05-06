@@ -1,0 +1,8 @@
+{{ if .Get "src" }}
+<div{{ with .Get "position" }} style="text-align: {{ . }};"{{ end }}>
+    <img src="{{ .Get "src" | safeURL }}"
+         alt="{{ .Get "alt" | default "" | plainify }}"
+         {{ with .Get "style" }}style="{{ . | safeCSS }}"{{ end }}
+         loading="lazy">
+</div>
+{{ end }}
