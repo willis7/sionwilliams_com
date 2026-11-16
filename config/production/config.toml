@@ -2,3 +2,6 @@ baseurl = "https://sionwilliams.com/"
 buildDrafts = false
 buildFuture = false
 googleAnalytics = "G-0KYGN7GLSW"
+
+[params]
+  sentryLoader = "/js/sentry.js"
