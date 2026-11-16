@@ -3,8 +3,5 @@ buildDrafts = false
 buildFuture = false
 googleAnalytics = "G-0KYGN7GLSW"
 
-# Hugo replaces slices across config dirs instead of merging them, so the
-# default entry has to be listed again here.
 [params]
-  customJS = ["/js/lightbox.js"]
   sentryLoader = "/js/sentry.js"
