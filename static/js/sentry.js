@@ -32,7 +32,8 @@
             window.Sentry.init({
                 dsn: SENTRY_DSN,
                 environment: environment(),
-                tracesSampleRate: 0.25
+                tracesSampleRate: 0.25,
+                integrations: [window.Sentry.browserTracingIntegration()]
             });
         } catch (err) {
             // Monitoring must never break the blog.
